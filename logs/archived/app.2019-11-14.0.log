@@ -1,0 +1,481 @@
+2019-11-13 17:44:28,146 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:getIndex
+2019-11-13 17:44:28,161 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:getIndex
+2019-11-13 17:44:32,885 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:getIndex
+2019-11-13 17:44:32,887 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:getIndex
+2019-11-13 17:45:46,154 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getIndex
+2019-11-13 17:45:46,170 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getIndex
+2019-11-14 07:46:03,781 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:getIndex
+2019-11-14 07:46:03,842 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:getIndex
+2019-11-14 08:16:44,954 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] Œÿ»¡ ¿: ÔÓ‚ÚÓˇ˛˘ÂÂÒˇ ÁÌ‡˜ÂÌËÂ ÍÎ˛˜‡ Ì‡Û¯‡ÂÚ Ó„‡ÌË˜ÂÌËÂ ÛÌËÍ‡Î¸ÌÓÒÚË "uk_7bbumoe9djtekd3fywu8uwbam"
+  œÓ‰Ó·ÌÓÒÚË:  Î˛˜ "(register_number)=(15)" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ.
+2019-11-14 08:16:44,992 ERROR org.hibernate.internal.ExceptionMapperStandardImpl [main] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2019-11-14 08:16:45,463 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] Œÿ»¡ ¿: ÔÓ‚ÚÓˇ˛˘ÂÂÒˇ ÁÌ‡˜ÂÌËÂ ÍÎ˛˜‡ Ì‡Û¯‡ÂÚ Ó„‡ÌË˜ÂÌËÂ ÛÌËÍ‡Î¸ÌÓÒÚË "uk_mivkw9ok977e1uj1ky0vyxcxk"
+  œÓ‰Ó·ÌÓÒÚË:  Î˛˜ "(route_number)=(15)" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ.
+2019-11-14 08:16:45,464 ERROR org.hibernate.internal.ExceptionMapperStandardImpl [main] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2019-11-14 08:16:45,505 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] Œÿ»¡ ¿: ÔÓ‚ÚÓˇ˛˘ÂÂÒˇ ÁÌ‡˜ÂÌËÂ ÍÎ˛˜‡ Ì‡Û¯‡ÂÚ Ó„‡ÌË˜ÂÌËÂ ÛÌËÍ‡Î¸ÌÓÒÚË "uk_7bbumoe9djtekd3fywu8uwbam"
+  œÓ‰Ó·ÌÓÒÚË:  Î˛˜ "(register_number)=(15)" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ.
+2019-11-14 08:16:45,506 ERROR org.hibernate.internal.ExceptionMapperStandardImpl [main] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2019-11-14 08:16:45,796 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] Œÿ»¡ ¿: ÔÓ‚ÚÓˇ˛˘ÂÂÒˇ ÁÌ‡˜ÂÌËÂ ÍÎ˛˜‡ Ì‡Û¯‡ÂÚ Ó„‡ÌË˜ÂÌËÂ ÛÌËÍ‡Î¸ÌÓÒÚË "uk_7bbumoe9djtekd3fywu8uwbam"
+  œÓ‰Ó·ÌÓÒÚË:  Î˛˜ "(register_number)=(15)" ÛÊÂ ÒÛ˘ÂÒÚ‚ÛÂÚ.
+2019-11-14 08:16:45,796 ERROR org.hibernate.internal.ExceptionMapperStandardImpl [main] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2019-11-14 08:29:14,406 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Running method:getBusList
+2019-11-14 08:29:15,496 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Finished method:getBusList
+2019-11-14 08:29:39,136 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getIndex
+2019-11-14 08:29:39,139 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:getIndex
+2019-11-14 08:29:47,246 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:getBusList
+2019-11-14 08:29:47,276 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:getBusList
+2019-11-14 08:31:26,434 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getBusList
+2019-11-14 08:31:26,945 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getBusList
+2019-11-14 08:32:52,340 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getBusList
+2019-11-14 08:32:53,905 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getBusList
+2019-11-14 08:43:49,464 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getBusList
+2019-11-14 08:43:50,986 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getBusList
+2019-11-14 08:45:58,660 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getIndex
+2019-11-14 08:45:58,677 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getIndex
+2019-11-14 08:46:01,532 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getBusList
+2019-11-14 08:46:02,064 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:getBusList
+2019-11-14 08:47:08,319 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getBusList
+2019-11-14 08:47:08,985 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:getBusList
+2019-11-14 08:47:16,904 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:getIndex
+2019-11-14 08:47:16,905 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:getIndex
+2019-11-14 08:47:22,487 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:getBusList
+2019-11-14 08:47:22,531 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Finished method:getBusList
+2019-11-14 08:47:22,718 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:getBusList
+2019-11-14 08:47:22,763 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:getBusList
+2019-11-14 08:49:52,481 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getBusList
+2019-11-14 08:49:53,045 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getBusList
+2019-11-14 08:52:51,803 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getIndex
+2019-11-14 08:52:51,841 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:getIndex
+2019-11-14 08:52:58,000 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:getBusList
+2019-11-14 08:52:58,707 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:getBusList
+2019-11-14 09:05:52,876 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getIndex
+2019-11-14 09:05:52,893 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:getIndex
+2019-11-14 09:05:59,684 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:getBusList
+2019-11-14 09:06:02,267 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:getBusList
+2019-11-14 14:42:46,812 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getIndex
+2019-11-14 14:42:46,852 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getIndex
+2019-11-14 14:46:02,287 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:getBusList
+2019-11-14 14:46:06,319 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:getBusList
+2019-11-14 14:46:10,692 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:getBusList
+2019-11-14 14:46:10,692 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Finished method:getBusList
+2019-11-14 14:46:36,678 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Running method:getBusList
+2019-11-14 14:46:36,715 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Finished method:getBusList
+2019-11-14 14:47:07,426 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getBusList
+2019-11-14 14:47:07,448 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getBusList
+2019-11-14 14:47:10,128 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getBusList
+2019-11-14 14:47:10,155 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:getBusList
+2019-11-14 14:49:54,661 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:getBusList
+2019-11-14 14:49:54,683 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:getBusList
+2019-11-14 14:56:01,521 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:getBusList
+2019-11-14 14:56:03,306 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:getBusList
+2019-11-14 15:00:37,371 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-16] Running method:getBusList
+2019-11-14 15:00:37,974 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-16] Finished method:getBusList
+2019-11-14 15:10:06,830 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-27] Running method:getBusList
+2019-11-14 15:10:07,717 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-27] Finished method:getBusList
+2019-11-14 15:12:29,872 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getBusList
+2019-11-14 15:12:30,582 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getBusList
+2019-11-14 15:15:15,981 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-11] Running method:getBusList
+2019-11-14 15:15:16,517 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-11] Finished method:getBusList
+2019-11-14 15:16:25,028 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Running method:getBusList
+2019-11-14 15:16:25,688 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Finished method:getBusList
+2019-11-14 15:18:16,333 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Running method:getBusList
+2019-11-14 15:18:16,870 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Finished method:getBusList
+2019-11-14 15:20:50,291 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-22] Running method:getBusList
+2019-11-14 15:20:50,401 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-22] Finished method:getBusList
+2019-11-14 15:33:09,577 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Running method:getBusList
+2019-11-14 15:33:10,560 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Finished method:getBusList
+2019-11-14 15:47:32,693 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-37] Running method:getBusList
+2019-11-14 15:47:32,722 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-37] Finished method:getBusList
+2019-11-14 15:47:44,786 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-38] Running method:getBusList
+2019-11-14 15:47:44,820 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-38] Finished method:getBusList
+2019-11-14 16:13:34,137 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getBusList
+2019-11-14 16:13:36,787 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getBusList
+2019-11-14 16:14:14,637 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:getBusList
+2019-11-14 16:14:14,673 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:getBusList
+2019-11-14 16:15:13,996 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:getBusList
+2019-11-14 16:15:14,024 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Finished method:getBusList
+2019-11-14 16:38:09,229 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getBusList
+2019-11-14 16:38:09,796 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getBusList
+2019-11-14 16:43:56,477 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:getBusList
+2019-11-14 16:43:56,513 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:getBusList
+2019-11-14 17:04:33,297 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getBusList
+2019-11-14 17:04:33,958 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getBusList
+2019-11-14 17:04:42,070 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getBusList
+2019-11-14 17:04:42,186 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:getBusList
+2019-11-14 17:04:45,939 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:getBusList
+2019-11-14 17:04:45,995 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:getBusList
+2019-11-14 17:06:07,914 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:getBusList
+2019-11-14 17:06:08,033 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:getBusList
+2019-11-14 17:07:23,573 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:getBusList
+2019-11-14 17:07:23,699 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:getBusList
+2019-11-14 17:07:34,414 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:getBusList
+2019-11-14 17:07:34,500 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:getBusList
+2019-11-14 17:08:58,230 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Running method:getBusList
+2019-11-14 17:08:58,306 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Finished method:getBusList
+2019-11-14 17:11:06,463 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getBusList
+2019-11-14 17:11:06,505 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:getBusList
+2019-11-14 17:12:25,722 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:getBusList
+2019-11-14 17:12:25,831 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:getBusList
+2019-11-14 17:13:12,851 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:getBusList
+2019-11-14 17:13:12,889 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Finished method:getBusList
+2019-11-14 17:13:55,021 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:getBusList
+2019-11-14 17:13:55,040 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:getBusList
+2019-11-14 17:16:53,012 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Running method:getBusList
+2019-11-14 17:16:53,035 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Finished method:getBusList
+2019-11-14 17:16:58,278 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getBusList
+2019-11-14 17:16:58,303 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getBusList
+2019-11-14 17:18:44,872 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:getBusList
+2019-11-14 17:18:44,913 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:getBusList
+2019-11-14 17:18:44,973 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:getBusList
+2019-11-14 17:18:45,015 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:getBusList
+2019-11-14 17:18:45,110 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:getBusList
+2019-11-14 17:18:45,141 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:getBusList
+2019-11-14 17:18:45,299 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:getBusList
+2019-11-14 17:18:45,327 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Finished method:getBusList
+2019-11-14 23:41:50,207 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@34009349] to prepare test instance [com.epam.buscompany.dao.impl.BusDaoImplTest@3f68a7f8]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'stageController' method 
+com.epam.buscompany.controller.StageController#getBusList()
+to { /api/drivers}: There is already 'driverController' bean method
+com.epam.buscompany.controller.DriverController#getBusList() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:134)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:61)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 26 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'stageController' method 
+com.epam.buscompany.controller.StageController#getBusList()
+to { /api/drivers}: There is already 'driverController' bean method
+com.epam.buscompany.controller.DriverController#getBusList() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:633)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:600)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:318)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:350)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:288)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:286)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:258)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:217)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:205)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:171)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 41 common frames omitted
+2019-11-14 23:41:51,202 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@34009349] to prepare test instance [com.epam.buscompany.dao.impl.BusDaoImplTest@106cd9c8]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'stageController' method 
+com.epam.buscompany.controller.StageController#getBusList()
+to { /api/drivers}: There is already 'driverController' bean method
+com.epam.buscompany.controller.DriverController#getBusList() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:134)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:61)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 26 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'stageController' method 
+com.epam.buscompany.controller.StageController#getBusList()
+to { /api/drivers}: There is already 'driverController' bean method
+com.epam.buscompany.controller.DriverController#getBusList() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:633)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:600)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:318)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:350)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:288)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:286)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:258)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:217)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:205)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:171)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 41 common frames omitted
+2019-11-14 23:41:52,204 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@34009349] to prepare test instance [com.epam.buscompany.dao.impl.BusDaoImplTest@147c00aa]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'stageController' method 
+com.epam.buscompany.controller.StageController#getBusList()
+to { /api/drivers}: There is already 'driverController' bean method
+com.epam.buscompany.controller.DriverController#getBusList() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:134)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:61)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 26 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'stageController' method 
+com.epam.buscompany.controller.StageController#getBusList()
+to { /api/drivers}: There is already 'driverController' bean method
+com.epam.buscompany.controller.DriverController#getBusList() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:633)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:600)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:318)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:350)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:288)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:286)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:258)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:217)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:205)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:171)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 41 common frames omitted
+2019-11-14 23:42:38,026 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] –û–®–ò–ë–ö–ê: –Ω—É–ª–µ–≤–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ –≤ —Å—Ç–æ–ª–±—Ü–µ "id" –Ω–∞—Ä—É—à–∞–µ—Ç –æ–≥—Ä–∞–Ω–∏—á–µ–Ω–∏–µ NOT NULL
+  –ü–æ–¥—Ä–æ–±–Ω–æ—Å—Ç–∏: –û—à–∏–±–æ—á–Ω–∞—è —Å—Ç—Ä–æ–∫–∞ —Å–æ–¥–µ—Ä–∂–∏—Ç (null, 99, 22).
+2019-11-14 23:42:39,152 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] –û–®–ò–ë–ö–ê: –Ω—É–ª–µ–≤–æ–µ –∑–Ω–∞—á–µ–Ω–∏–µ –≤ —Å—Ç–æ–ª–±—Ü–µ "id" –Ω–∞—Ä—É—à–∞–µ—Ç –æ–≥—Ä–∞–Ω–∏—á–µ–Ω–∏–µ NOT NULL
+  –ü–æ–¥—Ä–æ–±–Ω–æ—Å—Ç–∏: –û—à–∏–±–æ—á–Ω–∞—è —Å—Ç—Ä–æ–∫–∞ —Å–æ–¥–µ—Ä–∂–∏—Ç (null, 99, 22).
+2019-11-14 23:46:19,972 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] –û–®–ò–ë–ö–ê: UPDATE –∏–ª–∏ DELETE –≤ —Ç–∞–±–ª–∏—Ü–µ "bus" –Ω–∞—Ä—É—à–∞–µ—Ç –æ–≥—Ä–∞–Ω–∏—á–µ–Ω–∏–µ –≤–Ω–µ—à–Ω–µ–≥–æ –∫–ª—é—á–∞ "fkiybu1wtwowfg4lr3rrf9iskp2" —Ç–∞–±–ª–∏—Ü—ã "driver"
+  –ü–æ–¥—Ä–æ–±–Ω–æ—Å—Ç–∏: –ù–∞ –∫–ª—é—á (register_number)=(99) –≤—Å—ë –µ—â—ë –µ—Å—Ç—å —Å—Å—ã–ª–∫–∏ –≤ —Ç–∞–±–ª–∏—Ü–µ "driver".
+2019-11-14 23:46:20,242 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] –û–®–ò–ë–ö–ê: –ø–æ–≤—Ç–æ—Ä—è—é—â–µ–µ—Å—è –∑–Ω–∞—á–µ–Ω–∏–µ –∫–ª—é—á–∞ –Ω–∞—Ä—É—à–∞–µ—Ç –æ–≥—Ä–∞–Ω–∏—á–µ–Ω–∏–µ —É–Ω–∏–∫–∞–ª—å–Ω–æ—Å—Ç–∏ "uk_mivkw9ok977e1uj1ky0vyxcxk"
+  –ü–æ–¥—Ä–æ–±–Ω–æ—Å—Ç–∏: –ö–ª—é—á "(route_number)=(99)" —É–∂–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç.
+2019-11-14 23:46:20,243 ERROR org.hibernate.internal.ExceptionMapperStandardImpl [main] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2019-11-14 23:52:43,758 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@7e97551f] to prepare test instance [com.epam.buscompany.dao.impl.BusDaoImplTest@400d912a]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'busController': Unsatisfied dependency expressed through field 'busService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'busServiceImpl' defined in com.epam.buscompany.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.epam.buscompany.service.impl.BusServiceImpl]: Factory method 'busService' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'busDaoImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in com.epam.buscompany.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.hibernate.SessionFactory]: Factory method 'sessionFactory' threw exception; nested exception is java.lang.NoSuchMethodError: org.hibernate.boot.registry.BootstrapServiceRegistryBuilder.applyClassLoader(Ljava/lang/ClassLoader;)Lorg/hibernate/boot/registry/BootstrapServiceRegistryBuilder;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:134)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:61)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 26 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'busServiceImpl' defined in com.epam.buscompany.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.epam.buscompany.service.impl.BusServiceImpl]: Factory method 'busService' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'busDaoImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in com.epam.buscompany.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.hibernate.SessionFactory]: Factory method 'sessionFactory' threw exception; nested exception is java.lang.NoSuchMethodError: org.hibernate.boot.registry.BootstrapServiceRegistryBuilder.applyClassLoader(Ljava/lang/ClassLoader;)Lorg/hibernate/boot/registry/BootstrapServiceRegistryBuilder;
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:475)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 44 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.epam.buscompany.service.impl.BusServiceImpl]: Factory method 'busService' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'busDaoImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in com.epam.buscompany.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.hibernate.SessionFactory]: Factory method 'sessionFactory' threw exception; nested exception is java.lang.NoSuchMethodError: org.hibernate.boot.registry.BootstrapServiceRegistryBuilder.applyClassLoader(Ljava/lang/ClassLoader;)Lorg/hibernate/boot/registry/BootstrapServiceRegistryBuilder;
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:640)
+	... 57 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'busDaoImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in com.epam.buscompany.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.hibernate.SessionFactory]: Factory method 'sessionFactory' threw exception; nested exception is java.lang.NoSuchMethodError: org.hibernate.boot.registry.BootstrapServiceRegistryBuilder.applyClassLoader(Ljava/lang/ClassLoader;)Lorg/hibernate/boot/registry/BootstrapServiceRegistryBuilder;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:394)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:366)
+	at com.epam.buscompany.config.AppConfig$$EnhancerBySpringCGLIB$$b2f047bf.busDao(<generated>)
+	at com.epam.buscompany.config.AppConfig.busService(AppConfig.java:140)
+	at com.epam.buscompany.config.AppConfig$$EnhancerBySpringCGLIB$$b2f047bf.CGLIB$busService$9(<generated>)
+	at com.epam.buscompany.config.AppConfig$$EnhancerBySpringCGLIB$$b2f047bf$$FastClassBySpringCGLIB$$88fd6d5c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at com.epam.buscompany.config.AppConfig$$EnhancerBySpringCGLIB$$b2f047bf.busService(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 58 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sessionFactory' defined in com.epam.buscompany.config.AppConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.hibernate.SessionFactory]: Factory method 'sessionFactory' threw exception; nested exception is java.lang.NoSuchMethodError: org.hibernate.boot.registry.BootstrapServiceRegistryBuilder.applyClassLoader(Ljava/lang/ClassLoader;)Lorg/hibernate/boot/registry/BootstrapServiceRegistryBuilder;
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:475)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 81 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.hibernate.SessionFactory]: Factory method 'sessionFactory' threw exception; nested exception is java.lang.NoSuchMethodError: org.hibernate.boot.registry.BootstrapServiceRegistryBuilder.applyClassLoader(Ljava/lang/ClassLoader;)Lorg/hibernate/boot/registry/BootstrapServiceRegistryBuilder;
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:640)
+	... 94 common frames omitted
+Caused by: java.lang.NoSuchMethodError: org.hibernate.boot.registry.BootstrapServiceRegistryBuilder.applyClassLoader(Ljava/lang/ClassLoader;)Lorg/hibernate/boot/registry/BootstrapServiceRegistryBuilder;
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.getMetadataSources(LocalSessionFactoryBean.java:436)
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:496)
+	at com.epam.buscompany.config.AppConfig.sessionFactory(AppConfig.java:97)
+	at com.epam.buscompany.config.AppConfig$$EnhancerBySpringCGLIB$$b2f047bf.CGLIB$sessionFactory$5(<generated>)
+	at com.epam.buscompany.config.AppConfig$$EnhancerBySpringCGLIB$$b2f047bf$$FastClassBySpringCGLIB$$88fd6d5c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at com.epam.buscompany.config.AppConfig$$EnhancerBySpringCGLIB$$b2f047bf.sessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 95 common frames omitted

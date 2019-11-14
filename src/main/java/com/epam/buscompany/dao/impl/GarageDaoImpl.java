@@ -3,12 +3,17 @@ package com.epam.buscompany.dao.impl;
 import com.epam.buscompany.dao.GarageDao;
 import com.epam.buscompany.model.entity.Garage;
 import org.hibernate.Criteria;
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.persistence.TypedQuery;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
 import java.util.List;
 
 @Transactional
@@ -25,27 +30,32 @@ public class GarageDaoImpl implements GarageDao {
 
     public void update(Garage item) {
         Session session = sessionFactory.getCurrentSession();
-        session.update(item);
+        session.merge(item);
     }
 
-    public boolean remove(Garage item) {
+    public void remove(int garageNumber) {
         Session session = sessionFactory.getCurrentSession();
-        session.delete(item);
-        return session.contains(item);
+        Query q = session.createQuery("delete Garage where number = :garageNumber");
+        q.setParameter("garageNumber",garageNumber);
+        q.executeUpdate();
     }
 
     public List<Garage> findAll() {
         Session session = sessionFactory.getCurrentSession();
-        Criteria garageCriteria = session.createCriteria(Garage.class);
-        return garageCriteria.list();
+        CriteriaBuilder cb = session.getCriteriaBuilder();
+        CriteriaQuery<Garage> cq = cb.createQuery(Garage.class);
+        Root<Garage> rootEntry = cq.from(Garage.class);
+        CriteriaQuery<Garage> all = cq.select(rootEntry);
+
+        TypedQuery<Garage> allQuery = session.createQuery(all);
+        return allQuery.getResultList();
     }
 
-    public boolean findByNumber(int garageNumber) {
+    public Garage findByNumber(int garageNumber) {
         Session session = sessionFactory.getCurrentSession();
         Criteria garageCriteria = session.createCriteria(Garage.class);
-        garageCriteria.add(Restrictions.eq("number",garageNumber));
-        Garage garage = (Garage) garageCriteria.uniqueResult();
-        return garage != null;
+        garageCriteria.add(Restrictions.eq("number", garageNumber));
+        return (Garage) garageCriteria.uniqueResult();
     }
 
 }

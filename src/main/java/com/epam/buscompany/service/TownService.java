@@ -4,5 +4,9 @@ import com.epam.buscompany.model.entity.Town;
 
 public interface TownService extends EntityService<Town> {
 
-    boolean findByName(String name);
+    Town findByName(String name);
+
+    void create(Town item) ;
+
+    void remove(String townName);
 }

@@ -8,5 +8,7 @@ public interface TownDao extends GenericDao<Town> {
 
     List<Town> findAll();
 
-    boolean findByName(String townName);
+    Town findByName(String townName);
+
+    void remove(String townName);
 }

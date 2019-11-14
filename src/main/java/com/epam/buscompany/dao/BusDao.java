@@ -8,6 +8,8 @@ public interface BusDao extends GenericDao<Bus> {
 
     List<Bus> findAll();
 
-    boolean findByNumber(int registerNumber);
+    Bus findByNumber(int registerNumber);
 
+
+    void remove(int registerNumber);
 }

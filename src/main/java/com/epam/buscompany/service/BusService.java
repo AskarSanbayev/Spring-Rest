@@ -4,5 +4,9 @@ import com.epam.buscompany.model.entity.Bus;
 
 public interface BusService extends EntityService<Bus> {
 
-    boolean findByNumber(int registerNumber);
+    Bus findByNumber(int registerNumber);
+
+    void create(Bus item,int garageNumber,int routeNumber);
+
+    void remove(int registerNumber);
 }

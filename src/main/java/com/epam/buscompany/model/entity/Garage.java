@@ -1,7 +1,10 @@
 package com.epam.buscompany.model.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import javax.persistence.*;
 import javax.validation.constraints.Min;
@@ -13,11 +16,13 @@ import java.util.Set;
 @Data
 @NoArgsConstructor
 @Entity
+@ToString(exclude = "busList")
 @Table(name = "garage", schema = "company")
 public class Garage implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @SequenceGenerator(name="seq",sequenceName="garage_id",allocationSize = 1)
+    @GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seq")
     private int id;
 
     @Min(value = 1, message = "number must be more than 0")
@@ -32,7 +37,9 @@ public class Garage implements Serializable {
     @Column(name = "name")
     private String name;
 
-    @OneToMany(mappedBy = "garage")
+    @OneToMany(mappedBy = "garage", fetch = FetchType.EAGER,cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
+    @JsonIgnoreProperties({"deck","size","route","garage","driver"})
+    @JsonProperty("buslist")
     private Set<Bus> busList = new HashSet<>();
 
     public Garage(@Min(value = 1, message = "number must be more than 0") int number,

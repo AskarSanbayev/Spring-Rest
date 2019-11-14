@@ -2,10 +2,14 @@ package com.epam.buscompany.service.impl;
 
 import com.epam.buscompany.dao.TownDao;
 import com.epam.buscompany.model.entity.Town;
+import com.epam.buscompany.model.exception.NotFoundException;
 import com.epam.buscompany.service.TownService;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
+@Transactional
 public class TownServiceImpl implements TownService {
 
     private TownDao townDao;
@@ -14,10 +18,10 @@ public class TownServiceImpl implements TownService {
         this.townDao = townDao;
     }
 
+    @Transactional(readOnly = true)
     @Override
-    public boolean findByName(String townName) {
-        boolean find = townDao.findByName(townName);
-        return find;
+    public Town findByName(String townName) {
+        return Optional.ofNullable(townDao.findByName(townName)).orElseThrow(() -> new NotFoundException("Item not found"));
     }
 
     @Override
@@ -31,14 +35,13 @@ public class TownServiceImpl implements TownService {
     }
 
     @Override
-    public boolean remove(Town item) {
-        boolean find = townDao.remove(item);
-        return find;
+    public void remove(String townName) {
+        townDao.remove(townName);
     }
 
+    @Transactional(readOnly = true)
     @Override
     public List<Town> findAll() {
-        List<Town> townList = townDao.findAll();
-        return townList;
+        return townDao.findAll();
     }
 }

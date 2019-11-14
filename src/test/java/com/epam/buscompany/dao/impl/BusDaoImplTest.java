@@ -1,6 +1,6 @@
 package com.epam.buscompany.dao.impl;
 
-import com.epam.buscompany.config.AppConfig;
+import com.epam.buscompany.config.TestConfig;
 import com.epam.buscompany.dao.BusDao;
 import com.epam.buscompany.dao.DriverDao;
 import com.epam.buscompany.dao.GarageDao;
@@ -25,6 +25,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.jdbc.JdbcTestUtils;
 
+import java.text.SimpleDateFormat;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashSet;
@@ -35,7 +36,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.jupiter.api.Assertions.assertAll;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = {AppConfig.class})
+@ContextConfiguration(classes = {TestConfig.class})
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 @WebAppConfiguration
 public class BusDaoImplTest {
@@ -64,11 +65,12 @@ public class BusDaoImplTest {
 
     @BeforeClass
     public static void setUp() throws Exception {
-        bus = new Bus(15, 20, 1);
-        route = new Route(15, 22);
-        date = new Date(2019, 5, 4);
-        garage = new Garage(15, "test", "test");
-        driver = new Driver(2, "test", date);
+        bus = new Bus(99, 20, 1);
+        route = new Route(98, 22);
+        date = new Date();
+        garage = new Garage(99, "test", "test");
+        driver = new Driver(99, "test", date);
+        driver.setBirthday(new SimpleDateFormat("yyyy-MM-dd").parse("2010-2-2"));
     }
 
     @AfterClass
@@ -85,8 +87,8 @@ public class BusDaoImplTest {
     @Order(1)
     public void findAll() {
         int size = busDao.findAll().size();
+        System.out.println(busDao.findAll());
         int userRows = JdbcTestUtils.countRowsInTable(jdbcTemplate, "company.bus");
-
         assertThat(busDao.findAll(), everyItem(isA(Bus.class)));
         Assert.assertEquals(userRows, size);
     }
@@ -95,17 +97,9 @@ public class BusDaoImplTest {
     @DisplayName("findByNumber test")
     @Order(2)
     public void findByNumber() {
-        Set<Bus> buses = new HashSet<>(Collections.singletonList(bus));
-        route.setBuses(buses);
-        garage.setBuses(buses);
-        driver.setBus(bus);
-
-        routeDao.create(route);
-        garageDao.create(garage);
-        busDao.create(bus);
-        boolean find = busDao.findByNumber(bus.getRegisterNumber());
+        Bus find = busDao.findByNumber(10);
         assertAll("properties", () -> {
-                    int id = bus.getRegisterNumber();
+                    int id = route.getNumber();
                     assertThat(id, not(0));
                 },
                 () -> {
@@ -115,11 +109,7 @@ public class BusDaoImplTest {
                             () -> assertThat(size, is(20)),
                             () -> assertThat(deck, isA(Integer.class)));
                 });
-        busDao.remove(bus);
-        garageDao.remove(garage);
-        routeDao.remove(route);
-
-        Assert.assertTrue(find);
+        assertThat(find, is(notNullValue()));
     }
 
     @Test
@@ -135,14 +125,14 @@ public class BusDaoImplTest {
         garageDao.create(garage);
         busDao.create(bus);
         driverDao.create(driver);
-        boolean find = busDao.findByNumber(bus.getRegisterNumber());
+        Bus find = busDao.findByNumber(bus.getRegisterNumber());
 
-        driverDao.remove(driver);
-        busDao.remove(bus);
-        garageDao.remove(garage);
-        routeDao.remove(route);
+        driverDao.remove(driver.getNumber());
+        busDao.remove(bus.getRegisterNumber());
+        garageDao.remove(garage.getNumber());
+        routeDao.remove(route.getNumber());
 
         assertThat(bus, isA(Bus.class));
-        Assert.assertTrue(find);
+        Assert.assertNotNull(find);
     }
 }

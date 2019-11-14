@@ -4,5 +4,9 @@ import com.epam.buscompany.model.entity.Garage;
 
 public interface GarageService extends EntityService<Garage> {
 
-    boolean findByNumber(int garageNumber);
+    Garage findByNumber(int garageNumber);
+
+    void create(Garage item);
+
+    void remove(int garageNumber);
 }

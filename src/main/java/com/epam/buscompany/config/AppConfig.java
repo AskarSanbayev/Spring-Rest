@@ -15,28 +15,36 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 import javax.sql.DataSource;
+import javax.validation.Validator;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.Objects;
 import java.util.Properties;
 import java.util.ResourceBundle;
 
 @Configuration
 @ComponentScan(basePackages = {
-        "com.epam.buscompany.dao.impl",
-        "com.epam.buscompany.model",
-        "com.epam.buscompany.service",
         "com.epam.buscompany"})
+@EnableWebMvc
 @EnableAspectJAutoProxy(proxyTargetClass = true)
 @EnableTransactionManagement
 @Slf4j
-@EnableWebMvc
 public class AppConfig {
 
     private static final Marker FATAL = MarkerFactory.getMarker("FATAL");
@@ -48,12 +56,25 @@ public class AppConfig {
     private static final String USERNAME = "username";
     private static final String PASS_WORD = "password";
 
+    // Mail
+    private static final String MAIL_SOURCE = "mail";
+    private static final String MAIL_HOST = "mail.host";
+    private static final String MAIL_PORT = "mail.port";
+    private static final String MAIL_USERNAME = "mail.username";
+    private static final String MAIL_PASS_WORD = "mail.password";
+    private static final String MAIL_PROTOCOL = "mail.protocol";
+    private static final String TRANSPORT_PROTOCOL = "mail.transport.protocol";
+    private static final String MAIL_DEBUG = "mail.debug";
+    private static final String MAIL_SMTP_ENABLE = "mail.smtp.starttls.enable";
+    private static final String MAIL_SMTP_REQUIRED = "mail.smtp.starttls.required";
+
     @Bean
     public JdbcTemplate template() {
         return new JdbcTemplate(dataSource());
     }
 
 
+    @Bean
     public DataSource dataSource() {
         ResourceBundle bundle = ResourceBundle.getBundle(DATA_SOURCE);
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
@@ -92,11 +113,40 @@ public class AppConfig {
         return new HibernateTransactionManager(sessionFactory());
     }
 
+    @Bean
+    public Validator localValidatorFactoryBean() {
+        return new LocalValidatorFactoryBean();
+    }
+
+    @Bean
+    public JavaMailSender javaMailSender() {
+        JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
+        ResourceBundle bundle = ResourceBundle.getBundle(MAIL_SOURCE);
+
+        mailSender.setHost(bundle.getString(MAIL_HOST));
+        mailSender.setPort(Integer.parseInt(bundle.getString(MAIL_PORT)));
+        mailSender.setUsername(bundle.getString(MAIL_USERNAME));
+        mailSender.setPassword(bundle.getString(MAIL_PASS_WORD));
+
+        Properties properties = mailSender.getJavaMailProperties();
+
+        properties.setProperty(TRANSPORT_PROTOCOL, bundle.getString(MAIL_PROTOCOL));
+        properties.setProperty(MAIL_DEBUG, bundle.getString(MAIL_DEBUG));
+        properties.setProperty(MAIL_SMTP_ENABLE, bundle.getString(MAIL_SMTP_ENABLE));
+        properties.setProperty(MAIL_SMTP_REQUIRED, bundle.getString(MAIL_SMTP_REQUIRED));
+
+        return mailSender;
+    }
+
+    @Bean
+    public InfoMailSender infoMailSender() {
+        return new InfoMailSender();
+    }
+
     @Bean(name = "busDaoImpl")
     public BusDao busDao() {
         return new BusDaoImpl();
     }
-
 
     @Bean(name = "driverDaoImpl")
     public DriverDao driverDao() {
@@ -129,7 +179,7 @@ public class AppConfig {
     }
 
     @Bean(name = "driverServiceImpl")
-    public DriverService driverServiceService() {
+    public DriverService driverService() {
         return new DriverServiceImpl(driverDao());
     }
 

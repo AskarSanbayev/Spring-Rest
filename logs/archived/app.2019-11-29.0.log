@@ -1,0 +1,6 @@
+2019-11-29 00:52:27,074 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getBusList
+2019-11-29 00:52:27,347 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-29 00:52:27,993 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-29 00:52:28,006 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getBusList
+2019-11-29 00:52:28,344 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-29 00:52:28,520 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll

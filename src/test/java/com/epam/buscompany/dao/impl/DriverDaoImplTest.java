@@ -2,6 +2,7 @@ package com.epam.buscompany.dao.impl;
 
 
 import com.epam.buscompany.config.AppConfig;
+import com.epam.buscompany.config.TestConfig;
 import com.epam.buscompany.dao.BusDao;
 import com.epam.buscompany.dao.DriverDao;
 import com.epam.buscompany.model.entity.Bus;
@@ -28,7 +29,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = {AppConfig.class})
+@ContextConfiguration(classes = {TestConfig.class})
 @WebAppConfiguration
 public class DriverDaoImplTest {
 
@@ -48,9 +49,9 @@ public class DriverDaoImplTest {
 
     @BeforeClass
     public static void setUp() throws ParseException {
-        bus = new Bus(15, 20, 1);
+        bus = new Bus(99, 20, 1);
         date = new Date();
-        driver = new Driver(2, "test", date);
+        driver = new Driver(99, "test", date);
         driver.setBirthday(new SimpleDateFormat("yyyy-MM-dd").parse("2010-2-2"));
 
     }
@@ -74,16 +75,8 @@ public class DriverDaoImplTest {
 
     @Test
     public void findByNumber() {
-        busDao.create(bus);
-        driver.setBus(bus);
-        driverDao.create(driver);
-
-        boolean find = driverDao.findByNumber(driver.getNumber());
-
-        driverDao.remove(driver);
-        busDao.remove(bus);
-
-        Assert.assertTrue(find);
+        Driver find = driverDao.findByNumber(2);
+        Assert.assertNotNull(find);
     }
 
 
@@ -93,11 +86,12 @@ public class DriverDaoImplTest {
         driver.setBus(bus);
         driverDao.create(driver);
 
-        boolean actual = driverDao.remove(driver);
+        Driver find = driverDao.findByNumber(driver.getNumber());
 
-        busDao.remove(bus);
+        driverDao.remove(driver.getNumber());
+        busDao.remove(bus.getRegisterNumber());
 
         assertThat(driver, isA(Driver.class));
-        Assert.assertFalse(actual);
+        Assert.assertNotNull(find);
     }
 }

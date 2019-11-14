@@ -2,10 +2,14 @@ package com.epam.buscompany.service.impl;
 
 import com.epam.buscompany.dao.GarageDao;
 import com.epam.buscompany.model.entity.Garage;
+import com.epam.buscompany.model.exception.NotFoundException;
 import com.epam.buscompany.service.GarageService;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
+@Transactional
 public class GarageServiceImpl implements GarageService {
 
     private GarageDao garageDao;
@@ -14,10 +18,10 @@ public class GarageServiceImpl implements GarageService {
         this.garageDao = garageDao;
     }
 
+    @Transactional(readOnly = true)
     @Override
-    public boolean findByNumber(int garageNumber) {
-        boolean find = garageDao.findByNumber(garageNumber);
-        return find;
+    public Garage findByNumber(int garageNumber) {
+        return Optional.ofNullable(garageDao.findByNumber(garageNumber)).orElseThrow(() -> new NotFoundException("Item not found"));
     }
 
     @Override
@@ -31,14 +35,13 @@ public class GarageServiceImpl implements GarageService {
     }
 
     @Override
-    public boolean remove(Garage item){
-        boolean find = garageDao.remove(item);
-        return find;
+    public void remove(int garageNumber){
+        garageDao.remove(garageNumber);
     }
 
+    @Transactional(readOnly = true)
     @Override
     public List<Garage> findAll() {
-        List<Garage> garageList = garageDao.findAll();
-        return garageList;
+        return garageDao.findAll();
     }
 }

@@ -1,6 +1,8 @@
 package com.epam.buscompany.model.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
@@ -21,7 +23,8 @@ import java.util.Date;
 public class Driver implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @SequenceGenerator(name="seq",sequenceName="driver_id",allocationSize = 1)
+    @GeneratedValue(strategy=GenerationType.SEQUENCE, generator="seq")
     private int id;
 
     @Min(value = 1, message = "number must be more than 0")
@@ -32,9 +35,9 @@ public class Driver implements Serializable {
     @Column(name = "name")
     private String name;
 
-    @NotBlank
     @Column(name = "birthday")
     @Temporal(TemporalType.DATE)
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private Date birthday = new Date();
 
 
@@ -46,8 +49,9 @@ public class Driver implements Serializable {
         this.birthday = (Date) birthday.clone();
     }
 
-
     @OneToOne(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
     @JoinColumn(name = "bus_number", referencedColumnName = "register_number")
+    @JsonIgnoreProperties({"deck", "size", "route", "garage", "driver"})
     private Bus bus;
+
 }

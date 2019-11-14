@@ -8,5 +8,7 @@ public interface DriverDao extends GenericDao<Driver> {
 
     List<Driver> findAll();
 
-    boolean findByNumber(int driverNumber);
+    Driver findByNumber(int driverNumber);
+
+    void remove(int driverNumber);
 }

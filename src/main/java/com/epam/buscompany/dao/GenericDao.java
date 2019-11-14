@@ -5,5 +5,4 @@ public interface GenericDao<T> {
 
     void update(T item);
 
-    boolean remove(T item);
 }

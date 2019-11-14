@@ -7,5 +7,7 @@ import java.util.List;
 public interface RouteDao extends GenericDao<Route> {
     List<Route> findAll();
 
-    boolean findByNumber(int routeNumber);
+    Route findByNumber(int routeNumber);
+
+    void remove(int routeNumber);
 }

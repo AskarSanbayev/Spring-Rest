@@ -6,9 +6,11 @@ import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
@@ -23,34 +25,36 @@ public class DriverDaoImpl implements DriverDao {
 
     public void create(Driver item) {
         Session session = sessionFactory.getCurrentSession();
-        session.save(item);
+        session.saveOrUpdate(item);
     }
 
     public void update(Driver item) {
         Session session = sessionFactory.getCurrentSession();
-        session.update(item);
+        session.merge(item);
     }
 
-    public boolean remove(Driver item) {
+    public void remove(int driverNumber) {
         Session session = sessionFactory.getCurrentSession();
-        session.delete(item);
-        return session.contains(item);
+        Query q = session.createQuery("delete Driver where number = :driverNumber");
+        q.setParameter("driverNumber",driverNumber);
+        q.executeUpdate();
     }
 
     public List<Driver> findAll() {
         Session session = sessionFactory.getCurrentSession();
-        Criteria driverCriteria = session.createCriteria(Driver.class);
-        return driverCriteria.list();
+        CriteriaBuilder cb = session.getCriteriaBuilder();
+        CriteriaQuery<Driver> cq = cb.createQuery(Driver.class);
+        Root<Driver> rootEntry = cq.from(Driver.class);
+        CriteriaQuery<Driver> all = cq.select(rootEntry);
+
+        TypedQuery<Driver> allQuery = session.createQuery(all);
+        return allQuery.getResultList();
     }
 
-    public boolean findByNumber(int driverNumber) {
+    public Driver findByNumber(int driverNumber) {
         Session session = sessionFactory.getCurrentSession();
-        CriteriaBuilder cb = session.getCriteriaBuilder();
-        CriteriaQuery<Driver> cr = cb.createQuery(Driver.class);
-        Root<Driver> root = cr.from(Driver.class);
-        cr.select(root).where(cb.equal(root.get("number"), driverNumber));
-        Query<Driver> query = session.createQuery(cr);
-        Driver driver = query.getSingleResult();
-        return driver != null;
+        Criteria driverCriteria = session.createCriteria(Driver.class);
+        driverCriteria.add(Restrictions.eq("number", driverNumber));
+        return (Driver) driverCriteria.uniqueResult();
     }
 }

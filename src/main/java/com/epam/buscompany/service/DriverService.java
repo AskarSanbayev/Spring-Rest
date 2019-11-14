@@ -5,5 +5,9 @@ import com.epam.buscompany.model.entity.Driver;
 public interface DriverService extends EntityService<Driver>{
 
 
-    boolean findByNumber(int driverNumber);
+    Driver findByNumber(int driverNumber);
+
+    void remove(int driverNumber);
+
+    void create(Driver item,int busNumber) ;
 }

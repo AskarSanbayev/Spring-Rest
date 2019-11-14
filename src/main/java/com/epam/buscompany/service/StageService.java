@@ -4,5 +4,9 @@ import com.epam.buscompany.model.entity.Stage;
 
 public interface StageService extends EntityService<Stage> {
 
-    boolean findByName(int stageNumber);
+    Stage findByNumber(int stageNumber);
+
+    void create(Stage item) ;
+
+    void remove(int stageNumber);
 }

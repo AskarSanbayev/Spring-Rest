@@ -4,5 +4,9 @@ import com.epam.buscompany.model.entity.Route;
 
 public interface RouteService  extends EntityService<Route>{
 
-    boolean findByNumber(int routeNumber);
+    Route findByNumber(int routeNumber);
+
+    void create(Route item) ;
+
+    void remove(int routeNumber);
 }

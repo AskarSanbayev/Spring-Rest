@@ -8,5 +8,7 @@ public interface StageDao extends GenericDao<Stage> {
 
     List<Stage> findAll();
 
-    boolean findByNumber(int stageNumber);
+    Stage findByNumber(int stageNumber);
+
+    void remove(int stageNumber);
 }

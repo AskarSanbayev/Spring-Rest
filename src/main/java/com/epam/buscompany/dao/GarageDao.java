@@ -7,6 +7,7 @@ import java.util.List;
 public interface GarageDao extends GenericDao<Garage> {
     List<Garage> findAll();
 
-    boolean findByNumber(int garageNumber);
+    Garage findByNumber(int garageNumber);
 
+    void remove(int garageNumber);
 }

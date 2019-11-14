@@ -1,0 +1,1562 @@
+2019-11-18 00:30:16,603 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] ОШИБКА: нулевое значение в столбце "id" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, 3919-06-04, test, 99, 392).
+2019-11-18 00:32:35,527 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_mivkw9ok977e1uj1ky0vyxcxk"
+  Подробности: Ключ "(route_number)=(99)" уже существует.
+2019-11-18 00:35:05,416 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] ОШИБКА: нулевое значение в столбце "id" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, 3919-06-04, test, 99, 396).
+2019-11-18 00:38:17,681 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] ОШИБКА: нулевое значение в столбце "id" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, 2010-02-02, test, 99, 399).
+2019-11-18 00:50:25,878 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] ОШИБКА: нулевое значение в столбце "id" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, 2010-02-02, test, 99, 406).
+2019-11-18 00:54:01,084 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] ОШИБКА: нулевое значение в столбце "id" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, 2010-02-02, test, 99, 409).
+2019-11-18 00:55:28,753 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] ОШИБКА: нулевое значение в столбце "id" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, 2010-02-02, test, 99, 412).
+2019-11-18 07:50:31,504 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] ОШИБКА: нулевое значение в столбце "id" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, 2010-02-02, test, 99, 419).
+2019-11-18 08:07:20,109 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_mivkw9ok977e1uj1ky0vyxcxk"
+  Подробности: Ключ "(route_number)=(99)" уже существует.
+2019-11-18 08:30:17,642 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_mivkw9ok977e1uj1ky0vyxcxk"
+  Подробности: Ключ "(route_number)=(99)" уже существует.
+2019-11-20 15:33:12,416 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getBusList
+2019-11-20 15:33:12,470 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findAll
+2019-11-20 15:33:15,734 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findAll
+2019-11-20 15:33:15,735 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getBusList
+2019-11-20 15:35:37,845 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:getBusList
+2019-11-20 15:35:37,866 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findAll
+2019-11-20 15:35:42,694 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findAll
+2019-11-20 15:35:42,697 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:getBusList
+2019-11-20 15:36:02,120 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:getBusList
+2019-11-20 15:36:02,148 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:findAll
+2019-11-20 15:36:03,484 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:findAll
+2019-11-20 15:36:03,488 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:getBusList
+2019-11-20 15:38:50,514 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:getBusList
+2019-11-20 15:38:50,521 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:findAll
+2019-11-20 15:38:51,364 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Finished method:findAll
+2019-11-20 15:38:51,371 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Finished method:getBusList
+2019-11-20 15:38:58,543 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Running method:getBusList
+2019-11-20 15:38:58,550 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Running method:findAll
+2019-11-20 15:38:59,987 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Finished method:findAll
+2019-11-20 15:38:59,990 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Finished method:getBusList
+2019-11-20 15:44:16,786 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Running method:getBusList
+2019-11-20 15:44:16,802 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Running method:findAll
+2019-11-20 15:44:18,375 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Finished method:findAll
+2019-11-20 15:44:18,376 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Finished method:getBusList
+2019-11-20 15:45:59,965 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Running method:getBusList
+2019-11-20 15:45:59,981 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Running method:findAll
+2019-11-20 15:46:01,567 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Finished method:findAll
+2019-11-20 15:46:01,568 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Finished method:getBusList
+2019-11-20 15:49:11,565 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-21] Running method:getBusList
+2019-11-20 15:49:11,584 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-21] Running method:findAll
+2019-11-20 15:49:13,057 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-21] Finished method:findAll
+2019-11-20 15:49:13,058 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-21] Finished method:getBusList
+2019-11-20 15:49:19,059 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-26] Running method:getBusList
+2019-11-20 15:49:19,066 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-26] Running method:findAll
+2019-11-20 15:49:19,840 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-26] Finished method:findAll
+2019-11-20 15:49:19,841 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-26] Finished method:getBusList
+2019-11-20 15:51:06,824 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Running method:getBusList
+2019-11-20 15:51:06,841 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Running method:findAll
+2019-11-20 15:51:08,874 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Finished method:findAll
+2019-11-20 15:51:08,874 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Finished method:getBusList
+2019-11-20 15:52:33,346 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Running method:getBusList
+2019-11-20 15:52:33,352 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Running method:findAll
+2019-11-20 15:52:34,103 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Finished method:findAll
+2019-11-20 15:52:34,104 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Finished method:getBusList
+2019-11-20 15:52:41,138 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-32] Running method:getBusList
+2019-11-20 15:52:41,147 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-32] Running method:findAll
+2019-11-20 15:52:41,877 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-32] Finished method:findAll
+2019-11-20 15:52:41,878 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-32] Finished method:getBusList
+2019-11-20 15:52:50,442 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-37] Running method:getBusList
+2019-11-20 15:52:50,447 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-37] Running method:findAll
+2019-11-20 15:52:51,033 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-37] Finished method:findAll
+2019-11-20 15:52:51,033 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-37] Finished method:getBusList
+2019-11-20 15:53:59,731 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-38] Running method:getBusList
+2019-11-20 15:53:59,732 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-38] Running method:findAll
+2019-11-20 15:54:00,541 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-38] Finished method:findAll
+2019-11-20 15:54:00,543 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-38] Finished method:getBusList
+2019-11-20 15:55:42,674 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Running method:getBusList
+2019-11-20 15:55:42,675 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Running method:findAll
+2019-11-20 15:55:43,135 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Finished method:findAll
+2019-11-20 15:55:43,136 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Finished method:getBusList
+2019-11-20 15:56:14,376 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Running method:getBusList
+2019-11-20 15:56:14,383 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Running method:findAll
+2019-11-20 15:56:14,993 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Finished method:findAll
+2019-11-20 15:56:14,993 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Finished method:getBusList
+2019-11-20 15:56:34,860 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-39] Running method:getBusList
+2019-11-20 15:56:34,866 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-39] Running method:findAll
+2019-11-20 15:56:34,880 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-39] Finished method:findAll
+2019-11-20 15:56:34,881 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-39] Finished method:getBusList
+2019-11-20 15:56:54,569 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-41] Running method:getBusList
+2019-11-20 15:56:54,569 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-41] Running method:findAll
+2019-11-20 15:56:54,574 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-41] Finished method:findAll
+2019-11-20 15:56:54,575 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-41] Finished method:getBusList
+2019-11-20 15:57:42,344 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-38] Running method:getBusList
+2019-11-20 15:57:42,361 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-38] Running method:findAll
+2019-11-20 16:00:01,943 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Running method:getBusList
+2019-11-20 16:00:01,972 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Running method:findAll
+2019-11-20 16:00:39,220 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-46] Running method:getBusList
+2019-11-20 16:00:39,229 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-46] Running method:findAll
+2019-11-20 16:00:40,110 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-46] Finished method:findAll
+2019-11-20 16:00:40,112 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-46] Finished method:getBusList
+2019-11-20 16:01:16,248 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-49] Running method:getBusList
+2019-11-20 16:01:16,251 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-49] Running method:findAll
+2019-11-20 16:01:17,020 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-49] Finished method:findAll
+2019-11-20 16:01:17,020 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-49] Finished method:getBusList
+2019-11-20 16:01:40,903 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-45] Running method:getBusList
+2019-11-20 16:01:40,908 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-45] Running method:findAll
+2019-11-20 16:01:41,672 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-45] Finished method:findAll
+2019-11-20 16:01:41,672 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-45] Finished method:getBusList
+2019-11-20 16:02:04,009 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-48] Running method:getBusList
+2019-11-20 16:02:04,026 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-48] Running method:findAll
+2019-11-20 16:03:12,860 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getBusList
+2019-11-20 16:03:12,879 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findAll
+2019-11-20 16:03:24,217 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:getBusList
+2019-11-20 16:03:24,236 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findAll
+2019-11-20 16:03:25,452 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findAll
+2019-11-20 16:03:25,454 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:getBusList
+2019-11-20 16:03:30,513 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:getBusList
+2019-11-20 16:03:30,515 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:findAll
+2019-11-20 16:03:35,478 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:getGarageList
+2019-11-20 16:03:35,486 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:findAll
+2019-11-20 16:03:36,218 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:findAll
+2019-11-20 16:03:36,218 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:getGarageList
+2019-11-20 16:03:44,159 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:getTownList
+2019-11-20 16:03:44,166 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:findAll
+2019-11-20 16:03:44,969 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:findAll
+2019-11-20 16:03:44,972 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:getTownList
+2019-11-20 16:03:48,948 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Running method:getStageList
+2019-11-20 16:03:49,014 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Running method:findAll
+2019-11-20 16:06:10,803 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Running method:getStageList
+2019-11-20 16:06:10,825 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Running method:findAll
+2019-11-20 16:06:59,041 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-11] Running method:getBusList
+2019-11-20 16:06:59,060 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-11] Running method:findAll
+2019-11-20 16:09:06,228 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getDriverList
+2019-11-20 16:09:06,247 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:findAll
+2019-11-20 16:10:52,656 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getDriverList
+2019-11-20 16:10:52,674 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:findAll
+2019-11-20 16:10:59,316 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:getBusList
+2019-11-20 16:10:59,329 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:findAll
+2019-11-20 16:11:00,217 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Finished method:findAll
+2019-11-20 16:11:01,102 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Finished method:getBusList
+2019-11-20 16:11:08,809 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:getStageList
+2019-11-20 16:11:09,300 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:findAll
+2019-11-20 16:14:42,032 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-12] Running method:getStageList
+2019-11-20 16:14:42,032 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-12] Running method:findAll
+2019-11-20 16:14:47,084 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Running method:getTownList
+2019-11-20 16:14:47,095 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Running method:findAll
+2019-11-20 16:14:47,817 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Finished method:findAll
+2019-11-20 16:14:47,817 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Finished method:getTownList
+2019-11-20 16:14:58,306 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Running method:getDriverList
+2019-11-20 16:14:58,381 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Running method:findAll
+2019-11-20 16:17:06,184 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-16] Running method:getDriverList
+2019-11-20 16:17:06,201 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-16] Running method:findAll
+2019-11-20 16:19:08,539 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-23] Running method:getDriverList
+2019-11-20 16:19:08,555 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-23] Running method:findAll
+2019-11-20 16:20:11,775 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Running method:getDriverList
+2019-11-20 16:20:11,790 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Running method:findAll
+2019-11-20 16:20:12,949 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Finished method:findAll
+2019-11-20 16:20:12,950 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Running method:findAll
+2019-11-20 16:20:13,227 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Finished method:findAll
+2019-11-20 16:20:13,227 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Finished method:getDriverList
+2019-11-20 16:20:20,629 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:getStageList
+2019-11-20 16:20:20,636 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:findAll
+2019-11-20 16:20:21,001 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Finished method:findAll
+2019-11-20 16:20:21,015 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:findAll
+2019-11-20 16:20:21,330 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Finished method:findAll
+2019-11-20 16:20:21,330 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Finished method:getStageList
+2019-11-20 16:21:40,419 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-31] Running method:getStageList
+2019-11-20 16:21:40,444 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-31] Running method:findAll
+2019-11-20 16:21:41,645 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-31] Finished method:findAll
+2019-11-20 16:21:41,648 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-31] Running method:findAll
+2019-11-20 16:21:41,876 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-31] Finished method:findAll
+2019-11-20 16:21:41,876 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-31] Finished method:getStageList
+2019-11-20 16:21:49,975 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-26] Running method:getTownList
+2019-11-20 16:21:49,987 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-26] Running method:findAll
+2019-11-20 16:21:50,324 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-26] Finished method:findAll
+2019-11-20 16:21:50,324 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-26] Finished method:getTownList
+2019-11-20 16:21:54,913 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-28] Running method:getBusList
+2019-11-20 16:21:55,029 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-28] Running method:findAll
+2019-11-20 16:21:55,350 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-28] Finished method:findAll
+2019-11-20 16:21:55,352 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-28] Finished method:getBusList
+2019-11-20 16:22:07,845 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Running method:getDriverList
+2019-11-20 16:22:07,851 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Running method:findAll
+2019-11-20 16:22:08,034 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Finished method:findAll
+2019-11-20 16:22:08,034 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Running method:findAll
+2019-11-20 16:22:08,336 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Finished method:findAll
+2019-11-20 16:22:08,337 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Finished method:getDriverList
+2019-11-20 16:22:19,074 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-31] Running method:getTownList
+2019-11-20 16:22:19,077 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-31] Running method:findAll
+2019-11-20 16:22:19,255 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-31] Finished method:findAll
+2019-11-20 16:22:19,255 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-31] Finished method:getTownList
+2019-11-20 16:22:22,417 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-32] Running method:getBusList
+2019-11-20 16:22:22,427 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-32] Running method:findAll
+2019-11-20 16:22:22,655 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-32] Finished method:findAll
+2019-11-20 16:22:22,655 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-32] Finished method:getBusList
+2019-11-20 16:24:41,958 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Running method:getBusList
+2019-11-20 16:24:41,959 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Running method:findAll
+2019-11-20 16:24:42,137 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Finished method:findAll
+2019-11-20 16:24:42,138 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Finished method:getBusList
+2019-11-20 16:26:06,585 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-33] Running method:getTownList
+2019-11-20 16:26:06,585 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-33] Running method:findAll
+2019-11-20 16:26:06,932 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-33] Finished method:findAll
+2019-11-20 16:26:06,933 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-33] Finished method:getTownList
+2019-11-20 16:26:24,710 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Running method:getBusList
+2019-11-20 16:26:24,712 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Running method:findAll
+2019-11-20 16:26:24,916 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Finished method:findAll
+2019-11-20 16:26:24,917 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Finished method:getBusList
+2019-11-20 16:28:09,316 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getBusList
+2019-11-20 16:28:09,331 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:findAll
+2019-11-20 16:28:10,661 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:findAll
+2019-11-20 16:28:10,662 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:getBusList
+2019-11-20 16:31:25,532 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:getBusList
+2019-11-20 16:31:25,538 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:findAll
+2019-11-20 16:31:25,703 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:findAll
+2019-11-20 16:31:25,703 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:getBusList
+2019-11-20 16:31:26,736 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:getDriverList
+2019-11-20 16:31:26,743 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findAll
+2019-11-20 16:31:27,021 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findAll
+2019-11-20 16:31:27,021 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:getDriverList
+2019-11-20 16:31:29,188 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:getGarageList
+2019-11-20 16:31:29,198 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:findAll
+2019-11-20 16:31:29,441 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Finished method:findAll
+2019-11-20 16:31:29,442 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Finished method:getGarageList
+2019-11-20 16:31:43,115 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:getBusList
+2019-11-20 16:31:43,116 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:findAll
+2019-11-20 16:31:43,190 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:findAll
+2019-11-20 16:31:43,190 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:getBusList
+2019-11-20 16:32:48,285 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getDriverList
+2019-11-20 16:32:48,285 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findAll
+2019-11-20 16:32:48,399 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findAll
+2019-11-20 16:32:48,399 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getDriverList
+2019-11-20 16:33:21,226 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:getDriverList
+2019-11-20 16:33:21,228 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findAll
+2019-11-20 16:33:21,327 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:findAll
+2019-11-20 16:33:21,327 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:getDriverList
+2019-11-20 16:35:01,296 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:getDriverList
+2019-11-20 16:35:01,297 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findAll
+2019-11-20 16:35:01,487 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findAll
+2019-11-20 16:35:01,488 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:getDriverList
+2019-11-20 16:35:15,959 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:getBusList
+2019-11-20 16:35:15,959 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:findAll
+2019-11-20 16:35:16,086 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:findAll
+2019-11-20 16:35:16,087 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:getBusList
+2019-11-20 16:37:02,955 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Running method:getBusList
+2019-11-20 16:37:02,956 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Running method:findAll
+2019-11-20 16:37:03,077 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Finished method:findAll
+2019-11-20 16:37:03,077 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Finished method:getBusList
+2019-11-20 16:40:39,933 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getStageList
+2019-11-20 16:40:39,971 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:findAll
+2019-11-20 16:40:40,100 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:findAll
+2019-11-20 16:40:40,100 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:findAll
+2019-11-20 16:40:40,227 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:findAll
+2019-11-20 16:40:40,227 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:getStageList
+2019-11-20 16:40:40,736 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:getBusList
+2019-11-20 16:40:40,736 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findAll
+2019-11-20 16:40:40,887 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:findAll
+2019-11-20 16:40:40,887 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:getBusList
+2019-11-20 16:40:41,486 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:getGarageList
+2019-11-20 16:40:41,486 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:findAll
+2019-11-20 16:40:41,602 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:findAll
+2019-11-20 16:40:41,602 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:getGarageList
+2019-11-20 16:40:42,275 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:getBusList
+2019-11-20 16:40:42,276 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findAll
+2019-11-20 16:40:42,393 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findAll
+2019-11-20 16:40:42,393 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:getBusList
+2019-11-20 16:44:31,826 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:getBusList
+2019-11-20 16:44:31,827 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:findAll
+2019-11-20 16:44:31,969 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:findAll
+2019-11-20 16:44:31,970 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:getBusList
+2019-11-20 16:44:31,976 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:getBusList
+2019-11-20 16:44:31,976 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:findAll
+2019-11-20 16:44:32,121 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:findAll
+2019-11-20 16:44:32,121 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:getBusList
+2019-11-20 16:44:38,086 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Running method:getBusList
+2019-11-20 16:44:38,087 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Running method:findAll
+2019-11-20 16:44:38,307 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Finished method:findAll
+2019-11-20 16:44:38,307 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Finished method:getBusList
+2019-11-20 16:50:19,229 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getBusList
+2019-11-20 16:50:19,230 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findAll
+2019-11-20 16:50:19,408 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findAll
+2019-11-20 16:50:19,409 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getBusList
+2019-11-20 16:50:19,418 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getBusList
+2019-11-20 16:50:19,418 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:findAll
+2019-11-20 16:50:19,789 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:findAll
+2019-11-20 16:50:19,789 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:getBusList
+2019-11-20 16:53:29,510 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:getGarageList
+2019-11-20 16:53:29,510 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findAll
+2019-11-20 16:53:29,811 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findAll
+2019-11-20 16:53:29,812 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:getGarageList
+2019-11-20 16:54:17,065 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:getGarageList
+2019-11-20 16:54:17,065 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:findAll
+2019-11-20 16:54:17,186 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:findAll
+2019-11-20 16:54:17,186 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:getGarageList
+2019-11-20 16:54:43,322 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Running method:getGarageList
+2019-11-20 16:54:43,323 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Running method:findAll
+2019-11-20 16:54:43,482 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Finished method:findAll
+2019-11-20 16:54:43,482 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Finished method:getGarageList
+2019-11-20 16:54:46,097 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Running method:getStageList
+2019-11-20 16:54:46,103 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Running method:findAll
+2019-11-20 16:54:46,227 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Finished method:findAll
+2019-11-20 16:54:46,228 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Running method:findAll
+2019-11-20 16:54:46,319 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Finished method:findAll
+2019-11-20 16:54:46,320 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Finished method:getStageList
+2019-11-20 16:54:47,215 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getBusList
+2019-11-20 16:54:47,216 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findAll
+2019-11-20 16:54:47,328 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findAll
+2019-11-20 16:54:47,328 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getBusList
+2019-11-20 16:54:47,697 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getGarageList
+2019-11-20 16:54:47,697 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:findAll
+2019-11-20 16:54:48,008 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:findAll
+2019-11-20 16:54:48,008 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:getGarageList
+2019-11-20 16:54:48,073 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:getDriverList
+2019-11-20 16:54:48,074 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findAll
+2019-11-20 16:54:48,255 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:findAll
+2019-11-20 16:54:48,255 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:getDriverList
+2019-11-20 16:54:48,799 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:getBusList
+2019-11-20 16:54:48,800 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:findAll
+2019-11-20 16:54:48,891 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:findAll
+2019-11-20 16:54:48,891 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:getBusList
+2019-11-20 16:54:49,493 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:getDriverList
+2019-11-20 16:54:49,493 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findAll
+2019-11-20 16:54:49,586 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findAll
+2019-11-20 16:54:49,586 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:getDriverList
+2019-11-20 16:54:50,055 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:getGarageList
+2019-11-20 16:54:50,056 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:findAll
+2019-11-20 16:54:50,179 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Finished method:findAll
+2019-11-20 16:54:50,180 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Finished method:getGarageList
+2019-11-20 16:54:50,572 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:getBusList
+2019-11-20 16:54:50,573 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:findAll
+2019-11-20 16:54:50,686 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:findAll
+2019-11-20 16:54:50,687 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:getBusList
+2019-11-20 16:54:51,110 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:getStageList
+2019-11-20 16:54:51,111 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:findAll
+2019-11-20 16:54:51,214 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:findAll
+2019-11-20 16:54:51,214 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:findAll
+2019-11-20 16:54:51,313 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:findAll
+2019-11-20 16:54:51,313 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:getStageList
+2019-11-20 16:55:17,797 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getStageList
+2019-11-20 16:55:17,798 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findAll
+2019-11-20 16:55:17,909 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findAll
+2019-11-20 16:55:17,909 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findAll
+2019-11-20 16:55:18,467 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findAll
+2019-11-20 16:55:18,467 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getStageList
+2019-11-20 16:55:49,882 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:getStageList
+2019-11-20 16:55:49,883 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findAll
+2019-11-20 16:55:50,027 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:findAll
+2019-11-20 16:55:50,027 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findAll
+2019-11-20 16:55:50,195 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:findAll
+2019-11-20 16:55:50,196 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:getStageList
+2019-11-20 16:58:30,242 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:getStageList
+2019-11-20 16:58:30,268 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findAll
+2019-11-20 16:58:31,459 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findAll
+2019-11-20 16:58:31,460 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findAll
+2019-11-20 16:58:31,669 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findAll
+2019-11-20 16:58:31,669 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:getStageList
+2019-11-20 16:58:38,465 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getTownList
+2019-11-20 16:58:38,470 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:findAll
+2019-11-20 16:58:38,931 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:findAll
+2019-11-20 16:58:38,931 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:getTownList
+2019-11-20 16:58:57,018 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:getStageList
+2019-11-20 16:58:57,020 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findAll
+2019-11-20 16:58:57,269 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findAll
+2019-11-20 16:58:57,270 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findAll
+2019-11-20 16:58:57,454 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findAll
+2019-11-20 16:58:57,454 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:getStageList
+2019-11-20 16:59:01,180 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Running method:getTownList
+2019-11-20 16:59:01,181 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Running method:findAll
+2019-11-20 16:59:01,359 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Finished method:findAll
+2019-11-20 16:59:01,359 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Finished method:getTownList
+2019-11-20 16:59:02,206 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:getStageList
+2019-11-20 16:59:02,210 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:findAll
+2019-11-20 16:59:02,333 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:findAll
+2019-11-20 16:59:02,334 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:findAll
+2019-11-20 16:59:02,453 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:findAll
+2019-11-20 16:59:02,454 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:getStageList
+2019-11-20 16:59:26,455 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-11] Running method:getStageList
+2019-11-20 16:59:26,455 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-11] Running method:findAll
+2019-11-20 16:59:26,928 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-11] Finished method:findAll
+2019-11-20 16:59:26,928 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-11] Running method:findAll
+2019-11-20 16:59:27,138 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-11] Finished method:findAll
+2019-11-20 16:59:27,139 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-11] Finished method:getStageList
+2019-11-20 16:59:41,467 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:getStageList
+2019-11-20 16:59:41,468 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:findAll
+2019-11-20 16:59:41,636 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Finished method:findAll
+2019-11-20 16:59:41,636 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:findAll
+2019-11-20 16:59:41,739 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Finished method:findAll
+2019-11-20 16:59:41,739 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Finished method:getStageList
+2019-11-20 16:59:44,445 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Running method:getTownList
+2019-11-20 16:59:44,447 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Running method:findAll
+2019-11-20 16:59:44,594 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Finished method:findAll
+2019-11-20 16:59:44,594 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Finished method:getTownList
+2019-11-20 16:59:45,929 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-16] Running method:getBusList
+2019-11-20 16:59:45,938 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-16] Running method:findAll
+2019-11-20 16:59:46,087 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-16] Finished method:findAll
+2019-11-20 16:59:46,087 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-16] Finished method:getBusList
+2019-11-20 16:59:47,068 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Running method:getGarageList
+2019-11-20 16:59:47,074 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Running method:findAll
+2019-11-20 16:59:47,228 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Finished method:findAll
+2019-11-20 16:59:47,228 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Finished method:getGarageList
+2019-11-20 16:59:47,764 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Running method:getDriverList
+2019-11-20 16:59:47,770 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Running method:findAll
+2019-11-20 16:59:47,887 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Finished method:findAll
+2019-11-20 16:59:47,887 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Finished method:getDriverList
+2019-11-20 16:59:48,285 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:getBusList
+2019-11-20 16:59:48,290 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:findAll
+2019-11-20 16:59:48,377 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Finished method:findAll
+2019-11-20 16:59:48,377 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Finished method:getBusList
+2019-11-20 17:09:20,410 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-12] Running method:findByRegisterNumber
+2019-11-20 17:09:20,411 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-12] Running method:findByNumber
+2019-11-20 17:09:20,775 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-12] Finished method:findByNumber
+2019-11-20 17:09:20,775 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-12] Finished method:findByRegisterNumber
+2019-11-20 17:20:53,083 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Running method:findByRegisterNumber
+2019-11-20 17:20:53,083 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Running method:findByNumber
+2019-11-20 17:20:53,091 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Finished method:findByNumber
+2019-11-20 17:20:53,091 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Finished method:findByRegisterNumber
+2019-11-20 17:20:58,643 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-16] Running method:findByRegisterNumber
+2019-11-20 17:20:58,648 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-16] Running method:findByNumber
+2019-11-20 17:20:58,780 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-16] Finished method:findByNumber
+2019-11-20 17:20:58,781 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-16] Finished method:findByRegisterNumber
+2019-11-20 17:21:00,539 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Running method:findByRegisterNumber
+2019-11-20 17:21:00,541 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Running method:findByNumber
+2019-11-20 17:21:00,700 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Finished method:findByNumber
+2019-11-20 17:21:00,700 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Finished method:findByRegisterNumber
+2019-11-20 17:21:03,647 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Running method:findByRegisterNumber
+2019-11-20 17:21:03,648 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Running method:findByNumber
+2019-11-20 17:21:03,653 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Finished method:findByNumber
+2019-11-20 17:21:03,653 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Finished method:findByRegisterNumber
+2019-11-20 21:17:30,143 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] ОШИБКА: UPDATE или DELETE в таблице "bus" нарушает ограничение внешнего ключа "fkiybu1wtwowfg4lr3rrf9iskp2" таблицы "driver"
+  Подробности: На ключ (register_number)=(15) всё ещё есть ссылки в таблице "driver".
+2019-11-20 22:23:13,604 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:findByRegisterNumber
+2019-11-20 22:23:13,804 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:findByNumber
+2019-11-20 22:23:21,934 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:findByNumber
+2019-11-20 22:23:21,935 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:findByRegisterNumber
+2019-11-20 22:24:03,505 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:findByRegisterNumber
+2019-11-20 22:24:03,507 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:findByNumber
+2019-11-20 22:24:03,513 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:findByNumber
+2019-11-20 22:24:03,513 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:findByRegisterNumber
+2019-11-20 22:24:08,103 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Running method:findByRegisterNumber
+2019-11-20 22:24:08,104 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Running method:findByNumber
+2019-11-20 22:24:08,111 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Finished method:findByNumber
+2019-11-20 22:24:08,111 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Finished method:findByRegisterNumber
+2019-11-20 22:24:29,563 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findByRegisterNumber
+2019-11-20 22:24:29,563 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findByNumber
+2019-11-20 22:24:32,445 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findByNumber
+2019-11-20 22:24:32,446 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findByRegisterNumber
+2019-11-20 22:24:42,690 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByRegisterNumber
+2019-11-20 22:24:42,691 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByNumber
+2019-11-20 22:24:42,696 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:findByNumber
+2019-11-20 22:24:42,696 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:findByRegisterNumber
+2019-11-20 22:24:53,641 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByRegisterNumber
+2019-11-20 22:24:53,642 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByNumber
+2019-11-20 22:24:53,646 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findByNumber
+2019-11-20 22:24:53,646 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findByRegisterNumber
+2019-11-20 22:24:57,226 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:findByRegisterNumber
+2019-11-20 22:24:57,227 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:findByNumber
+2019-11-20 22:24:57,232 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:findByNumber
+2019-11-20 22:24:57,232 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:findByRegisterNumber
+2019-11-20 23:00:50,384 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:findByRegisterNumber
+2019-11-20 23:00:50,438 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:findByNumber
+2019-11-20 23:00:51,024 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:findByNumber
+2019-11-20 23:00:51,024 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:findByRegisterNumber
+2019-11-20 23:01:09,204 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByRegisterNumber
+2019-11-20 23:01:09,205 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByNumber
+2019-11-20 23:01:09,212 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:findByNumber
+2019-11-20 23:01:09,212 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:findByRegisterNumber
+2019-11-20 23:19:18,643 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:findByRegisterNumber
+2019-11-20 23:19:18,659 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:findByNumber
+2019-11-20 23:19:19,089 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:findByNumber
+2019-11-20 23:19:19,089 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:findByRegisterNumber
+2019-11-20 23:19:24,488 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByRegisterNumber
+2019-11-20 23:19:24,490 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByNumber
+2019-11-20 23:19:24,496 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findByNumber
+2019-11-20 23:19:24,496 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findByRegisterNumber
+2019-11-20 23:19:27,952 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findByRegisterNumber
+2019-11-20 23:19:27,959 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findByNumber
+2019-11-20 23:19:28,538 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findByNumber
+2019-11-20 23:19:28,538 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findByRegisterNumber
+2019-11-20 23:19:31,190 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByRegisterNumber
+2019-11-20 23:19:31,191 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByNumber
+2019-11-20 23:19:31,196 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:findByNumber
+2019-11-20 23:19:31,196 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:findByRegisterNumber
+2019-11-20 23:19:34,441 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:findByRegisterNumber
+2019-11-20 23:19:34,442 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:findByNumber
+2019-11-20 23:19:34,448 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:findByNumber
+2019-11-20 23:19:34,448 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:findByRegisterNumber
+2019-11-20 23:20:17,816 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-11] Running method:findByRegisterNumber
+2019-11-20 23:20:24,443 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-12] Running method:findByRegisterNumber
+2019-11-20 23:20:28,043 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Running method:findByRegisterNumber
+2019-11-20 23:24:50,790 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Running method:findByRegisterNumber
+2019-11-20 23:24:50,825 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Running method:findByNumber
+2019-11-20 23:24:51,677 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Finished method:findByNumber
+2019-11-20 23:24:51,686 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Finished method:findByRegisterNumber
+2019-11-20 23:38:09,925 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Running method:postBus
+2019-11-20 23:38:09,926 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Finished method:postBus
+2019-11-20 23:38:32,366 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-23] Running method:postBus
+2019-11-20 23:38:32,367 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-23] Finished method:postBus
+2019-11-20 23:38:38,517 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-22] Running method:postBus
+2019-11-20 23:38:38,518 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-22] Finished method:postBus
+2019-11-20 23:38:40,986 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-25] Running method:postBus
+2019-11-20 23:38:40,988 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-25] Finished method:postBus
+2019-11-20 23:38:55,553 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-24] Running method:postBus
+2019-11-20 23:38:55,554 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-24] Finished method:postBus
+2019-11-20 23:39:07,818 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-26] Running method:postBus
+2019-11-20 23:39:07,818 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-26] Finished method:postBus
+2019-11-20 23:39:10,851 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Running method:postBus
+2019-11-20 23:39:10,852 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Finished method:postBus
+2019-11-20 23:39:47,827 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-21] Running method:postBus
+2019-11-20 23:39:47,828 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-21] Finished method:postBus
+2019-11-20 23:39:50,486 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-20] Running method:postBus
+2019-11-20 23:39:50,487 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-20] Finished method:postBus
+2019-11-20 23:39:52,529 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-23] Running method:postBus
+2019-11-20 23:39:52,535 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-23] Finished method:postBus
+2019-11-20 23:40:34,105 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-20] Running method:postBus
+2019-11-20 23:40:34,140 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-20] Finished method:postBus
+2019-11-20 23:40:51,243 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-24] Running method:postBus
+2019-11-20 23:40:51,244 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-24] Finished method:postBus
+2019-11-20 23:41:48,519 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-29] Running method:postBus
+2019-11-20 23:41:48,520 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-29] Finished method:postBus
+2019-11-20 23:42:00,339 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Running method:postBus
+2019-11-20 23:42:00,340 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Finished method:postBus
+2019-11-20 23:42:02,469 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Running method:postBus
+2019-11-20 23:42:02,494 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-18] Finished method:postBus
+2019-11-20 23:46:01,762 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Running method:postBus
+2019-11-20 23:46:01,795 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Finished method:postBus
+2019-11-20 23:46:56,162 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-38] Running method:postBus
+2019-11-20 23:46:56,197 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-38] Finished method:postBus
+2019-11-20 23:50:07,556 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-41] Running method:postBus
+2019-11-20 23:50:07,558 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-41] Finished method:postBus
+2019-11-20 23:51:08,396 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-46] Running method:postBus
+2019-11-20 23:51:08,396 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-46] Finished method:postBus
+2019-11-20 23:51:09,827 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-47] Running method:postBus
+2019-11-20 23:51:09,828 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-47] Finished method:postBus
+2019-11-20 23:58:33,866 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-48] Running method:postBus
+2019-11-20 23:58:33,897 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-48] Finished method:postBus
+2019-11-20 23:58:36,409 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-46] Running method:postBus
+2019-11-20 23:58:36,412 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-46] Finished method:postBus
+2019-11-20 23:58:37,279 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-45] Running method:postBus
+2019-11-20 23:58:37,280 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-45] Finished method:postBus
+2019-11-20 23:58:53,233 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-51] Running method:postBus
+2019-11-20 23:58:53,234 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-51] Finished method:postBus
+2019-11-20 23:58:59,773 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-45] Running method:postBus
+2019-11-20 23:58:59,775 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-45] Finished method:postBus
+2019-11-20 23:59:01,769 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-52] Running method:postBus
+2019-11-20 23:59:01,770 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-52] Finished method:postBus
+2019-11-20 23:59:02,356 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-42] Running method:postBus
+2019-11-20 23:59:02,357 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-42] Finished method:postBus
+2019-11-20 23:59:24,581 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-54] Running method:postBus
+2019-11-20 23:59:24,582 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-54] Finished method:postBus
+2019-11-21 00:01:39,460 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-55] Running method:postBus
+2019-11-21 00:01:39,473 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-55] Finished method:postBus
+2019-11-21 00:03:44,867 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-57] Running method:postBus
+2019-11-21 00:03:44,868 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-57] Finished method:postBus
+2019-11-21 00:03:58,677 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-58] Running method:postBus
+2019-11-21 00:03:58,678 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-58] Finished method:postBus
+2019-11-21 00:04:50,177 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-50] Running method:findByDriverNumber
+2019-11-21 00:04:50,184 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-50] Running method:findByNumber
+2019-11-21 00:04:51,385 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-50] Finished method:findByNumber
+2019-11-21 00:04:51,386 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-50] Finished method:findByDriverNumber
+2019-11-21 00:05:31,451 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-57] Running method:postDriver
+2019-11-21 00:05:31,452 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-57] Finished method:postDriver
+2019-11-21 00:06:25,235 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-59] Running method:postBus
+2019-11-21 00:06:25,238 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-59] Finished method:postBus
+2019-11-21 00:07:12,675 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-51] Running method:postBus
+2019-11-21 00:07:12,676 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-51] Finished method:postBus
+2019-11-21 00:11:02,923 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-54] Running method:postBus
+2019-11-21 00:11:02,924 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-54] Finished method:postBus
+2019-11-21 00:11:15,350 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-51] Running method:postBus
+2019-11-21 00:11:15,367 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-51] Finished method:postBus
+2019-11-21 00:15:34,617 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-58] Running method:postBus
+2019-11-21 00:15:34,618 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-58] Finished method:postBus
+2019-11-21 00:24:46,436 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-61] Running method:findByRegisterNumber
+2019-11-21 00:24:46,795 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-61] Running method:findByNumber
+2019-11-21 00:24:48,342 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-61] Finished method:findByNumber
+2019-11-21 00:24:48,348 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-61] Finished method:findByRegisterNumber
+2019-11-21 00:25:21,659 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-68] Running method:postBus
+2019-11-21 00:25:21,661 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-68] Finished method:postBus
+2019-11-21 00:27:08,723 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-67] Running method:findByRegisterNumber
+2019-11-21 00:27:08,779 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-67] Running method:findByNumber
+2019-11-21 00:27:09,690 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-67] Finished method:findByNumber
+2019-11-21 00:27:09,696 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-67] Finished method:findByRegisterNumber
+2019-11-21 00:28:17,290 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-74] Running method:postBus
+2019-11-21 00:28:17,292 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-74] Finished method:postBus
+2019-11-21 23:48:08,611 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:findByRegisterNumber
+2019-11-21 23:48:08,746 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:findByNumber
+2019-11-21 23:48:10,347 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Finished method:findByNumber
+2019-11-21 23:48:10,348 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:findByNumber
+2019-11-21 23:48:10,640 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Finished method:findByNumber
+2019-11-21 23:48:10,650 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Finished method:findByRegisterNumber
+2019-11-21 23:48:18,583 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:findByRegisterNumber
+2019-11-21 23:48:18,584 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:findByNumber
+2019-11-21 23:48:18,740 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:findByNumber
+2019-11-21 23:48:18,740 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:findByNumber
+2019-11-21 23:48:18,970 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:findByNumber
+2019-11-21 23:48:18,970 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:findByRegisterNumber
+2019-11-21 23:48:27,271 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:findByRegisterNumber
+2019-11-21 23:48:27,272 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:findByNumber
+2019-11-21 23:48:27,278 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:findByNumber
+2019-11-21 23:48:27,278 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:findByNumber
+2019-11-21 23:48:27,283 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Finished method:findByNumber
+2019-11-21 23:50:26,882 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByRegisterNumber
+2019-11-21 23:50:26,946 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByNumber
+2019-11-21 23:50:27,344 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findByNumber
+2019-11-21 23:50:27,344 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByNumber
+2019-11-21 23:50:27,349 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findByNumber
+2019-11-21 23:50:35,744 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Running method:findByRegisterNumber
+2019-11-21 23:50:35,749 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Running method:findByNumber
+2019-11-21 23:50:35,756 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Finished method:findByNumber
+2019-11-21 23:50:35,760 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Running method:findByNumber
+2019-11-21 23:50:35,766 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Finished method:findByNumber
+2019-11-21 23:50:38,542 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Running method:findByRegisterNumber
+2019-11-21 23:50:38,542 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Running method:findByNumber
+2019-11-21 23:50:38,951 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Finished method:findByNumber
+2019-11-21 23:50:38,951 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Running method:findByNumber
+2019-11-21 23:50:39,179 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Finished method:findByNumber
+2019-11-21 23:50:39,190 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-9] Finished method:findByRegisterNumber
+2019-11-21 23:50:42,297 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findByRegisterNumber
+2019-11-21 23:50:42,307 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findByNumber
+2019-11-21 23:50:42,312 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findByNumber
+2019-11-21 23:50:42,312 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findByNumber
+2019-11-21 23:50:42,317 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findByNumber
+2019-11-21 23:51:00,418 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByRegisterNumber
+2019-11-21 23:52:42,635 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:findByRegisterNumber
+2019-11-21 23:52:45,774 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-12] Running method:findByRegisterNumber
+2019-11-21 23:52:48,656 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-11] Running method:findByRegisterNumber
+2019-11-21 23:52:49,796 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Running method:findByRegisterNumber
+2019-11-21 23:52:58,043 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Running method:findByRegisterNumber
+2019-11-21 23:53:43,080 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:findByRegisterNumber
+2019-11-21 23:53:44,602 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-25] Running method:findByRegisterNumber
+2019-11-21 23:53:45,376 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-24] Running method:findByRegisterNumber
+2019-11-21 23:53:46,148 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-20] Running method:findByRegisterNumber
+2019-11-21 23:53:46,999 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-22] Running method:findByRegisterNumber
+2019-11-21 23:53:49,107 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-17] Running method:findByRegisterNumber
+2019-11-21 23:53:50,433 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-23] Running method:findByRegisterNumber
+2019-11-21 23:53:50,470 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-23] Running method:findByNumber
+2019-11-21 23:53:51,453 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-23] Finished method:findByNumber
+2019-11-21 23:53:51,454 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-23] Running method:findByNumber
+2019-11-21 23:53:51,670 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-23] Finished method:findByNumber
+2019-11-21 23:53:51,681 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-23] Finished method:findByRegisterNumber
+2019-11-21 23:57:30,237 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-29] Running method:postBus
+2019-11-21 23:57:30,273 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-29] Finished method:postBus
+2019-11-21 23:57:49,299 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Running method:findByRegisterNumber
+2019-11-21 23:57:49,301 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Running method:findByNumber
+2019-11-21 23:57:50,089 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Finished method:findByNumber
+2019-11-21 23:57:50,089 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Running method:findByNumber
+2019-11-21 23:57:50,279 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Finished method:findByNumber
+2019-11-21 23:57:50,280 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-36] Finished method:findByRegisterNumber
+2019-11-21 23:57:52,542 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-30] Running method:findByRegisterNumber
+2019-11-21 23:58:07,399 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-38] Running method:findByRegisterNumber
+2019-11-22 00:34:04,308 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-41] Running method:findByRegisterNumber
+2019-11-22 00:36:53,753 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-46] Running method:findByRegisterNumber
+2019-11-22 00:41:13,164 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-51] Running method:findByRegisterNumber
+2019-11-22 00:44:07,545 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-59] Running method:findByRegisterNumber
+2019-11-22 00:44:19,018 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-57] Running method:findByRegisterNumber
+2019-11-22 00:44:45,790 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-50] Running method:findByRegisterNumber
+2019-11-22 00:44:48,816 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-47] Running method:findByRegisterNumber
+2019-11-22 00:44:48,862 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-47] Running method:findByNumber
+2019-11-22 00:44:49,995 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-47] Finished method:findByNumber
+2019-11-22 00:44:50,004 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-47] Finished method:findByRegisterNumber
+2019-11-22 00:44:52,149 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-60] Running method:findByRegisterNumber
+2019-11-22 00:44:52,151 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-60] Running method:findByNumber
+2019-11-22 00:44:52,353 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-60] Finished method:findByNumber
+2019-11-22 00:44:52,363 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-60] Finished method:findByRegisterNumber
+2019-11-22 00:44:53,546 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-59] Running method:findByRegisterNumber
+2019-11-22 00:44:53,547 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-59] Running method:findByNumber
+2019-11-22 00:44:53,820 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-59] Finished method:findByNumber
+2019-11-22 00:44:53,822 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-59] Finished method:findByRegisterNumber
+2019-11-22 00:44:55,621 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-61] Running method:findByRegisterNumber
+2019-11-22 00:44:55,622 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-61] Running method:findByNumber
+2019-11-22 00:44:55,818 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-61] Finished method:findByNumber
+2019-11-22 00:44:55,821 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-61] Finished method:findByRegisterNumber
+2019-11-22 00:48:02,831 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-67] Running method:findByRegisterNumber
+2019-11-22 00:48:02,931 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-67] Running method:findByNumber
+2019-11-22 00:48:03,750 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-67] Finished method:findByNumber
+2019-11-22 00:48:03,778 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-67] Finished method:findByRegisterNumber
+2019-11-22 00:48:06,166 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-61] Running method:findByRegisterNumber
+2019-11-22 00:48:06,168 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-61] Running method:findByNumber
+2019-11-22 00:48:06,387 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-61] Finished method:findByNumber
+2019-11-22 00:48:06,387 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-61] Finished method:findByRegisterNumber
+2019-11-22 00:48:09,507 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-64] Running method:findByRegisterNumber
+2019-11-22 00:48:12,762 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-74] Running method:findByRegisterNumber
+2019-11-22 00:48:17,734 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-62] Running method:findByRegisterNumber
+2019-11-22 00:48:17,735 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-62] Running method:findByNumber
+2019-11-22 00:48:17,740 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-62] Finished method:findByNumber
+2019-11-22 00:48:17,740 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-62] Finished method:findByRegisterNumber
+2019-11-22 00:49:16,604 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-73] Running method:findByRegisterNumber
+2019-11-22 00:49:16,687 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-73] Running method:findByNumber
+2019-11-22 00:49:17,043 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-73] Finished method:findByNumber
+2019-11-22 00:49:17,058 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-73] Finished method:findByRegisterNumber
+2019-11-22 00:49:23,071 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-77] Running method:findByRegisterNumber
+2019-11-22 00:49:23,078 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-77] Running method:findByNumber
+2019-11-22 00:49:23,478 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-77] Finished method:findByNumber
+2019-11-22 00:49:23,479 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-77] Finished method:findByRegisterNumber
+2019-11-22 00:49:27,583 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-68] Running method:findByRegisterNumber
+2019-11-22 00:49:27,585 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-68] Running method:findByNumber
+2019-11-22 00:49:27,876 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-68] Finished method:findByNumber
+2019-11-22 00:49:27,876 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-68] Finished method:findByRegisterNumber
+2019-11-22 00:49:29,443 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-62] Running method:findByRegisterNumber
+2019-11-22 00:49:29,450 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-62] Running method:findByNumber
+2019-11-22 00:49:29,643 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-62] Finished method:findByNumber
+2019-11-22 00:49:29,643 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-62] Finished method:findByRegisterNumber
+2019-11-22 00:51:06,556 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-82] Running method:findByRegisterNumber
+2019-11-22 00:51:06,665 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-82] Running method:findByNumber
+2019-11-22 00:51:07,414 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-82] Finished method:findByNumber
+2019-11-22 00:51:07,435 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-82] Finished method:findByRegisterNumber
+2019-11-22 00:51:10,210 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-79] Running method:findByRegisterNumber
+2019-11-22 00:51:10,215 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-79] Running method:findByNumber
+2019-11-22 00:51:10,223 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-79] Finished method:findByNumber
+2019-11-22 00:51:10,224 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-79] Finished method:findByRegisterNumber
+2019-11-22 00:51:13,183 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-75] Running method:findByRegisterNumber
+2019-11-22 00:51:13,184 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-75] Running method:findByNumber
+2019-11-22 00:51:13,385 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-75] Finished method:findByNumber
+2019-11-22 00:51:13,385 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-75] Finished method:findByRegisterNumber
+2019-11-22 00:51:16,259 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-81] Running method:findByRegisterNumber
+2019-11-22 00:55:07,665 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-90] Running method:findByRegisterNumber
+2019-11-22 00:55:14,700 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-87] Running method:findByRegisterNumber
+2019-11-22 00:55:14,730 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-87] Running method:findByNumber
+2019-11-22 00:55:15,618 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-87] Finished method:findByNumber
+2019-11-22 00:55:15,635 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-87] Finished method:findByRegisterNumber
+2019-11-22 00:55:18,040 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-93] Running method:findByRegisterNumber
+2019-11-22 00:55:18,046 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-93] Running method:findByNumber
+2019-11-22 00:55:18,433 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-93] Finished method:findByNumber
+2019-11-22 00:55:18,434 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-93] Finished method:findByRegisterNumber
+2019-11-22 00:55:21,387 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-88] Running method:findByRegisterNumber
+2019-11-22 00:55:21,389 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-88] Running method:findByNumber
+2019-11-22 00:55:21,394 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-88] Finished method:findByNumber
+2019-11-22 00:55:21,395 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-88] Finished method:findByRegisterNumber
+2019-11-22 00:55:24,700 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-92] Running method:findByRegisterNumber
+2019-11-22 00:57:10,694 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-95] Running method:findByRegisterNumber
+2019-11-22 00:57:15,199 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-97] Running method:findByRegisterNumber
+2019-11-22 00:57:17,442 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-103] Running method:findByRegisterNumber
+2019-11-22 00:57:18,819 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-96] Running method:findByRegisterNumber
+2019-11-22 00:57:21,468 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-102] Running method:findByRegisterNumber
+2019-11-22 00:57:35,055 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-104] Running method:findByRegisterNumber
+2019-11-22 00:57:35,134 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-104] Running method:findByNumber
+2019-11-22 00:57:36,149 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-104] Finished method:findByNumber
+2019-11-22 00:57:36,174 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-104] Finished method:findByRegisterNumber
+2019-11-22 00:57:37,991 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-105] Running method:findByRegisterNumber
+2019-11-22 00:57:37,993 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-105] Running method:findByNumber
+2019-11-22 00:57:38,209 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-105] Finished method:findByNumber
+2019-11-22 00:57:38,210 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-105] Finished method:findByRegisterNumber
+2019-11-22 00:57:44,206 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-97] Running method:findByRegisterNumber
+2019-11-22 00:58:33,307 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-104] Running method:findByRegisterNumber
+2019-11-22 01:00:32,860 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-112] Running method:findByRegisterNumber
+2019-11-22 01:00:58,953 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-107] Running method:findByRegisterNumber
+2019-11-22 01:01:46,083 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-107] Running method:findByRegisterNumber
+2019-11-22 01:01:48,067 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-115] Running method:findByRegisterNumber
+2019-11-22 01:01:48,884 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-113] Running method:findByRegisterNumber
+2019-11-22 01:01:53,232 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-116] Running method:findByRegisterNumber
+2019-11-22 01:01:53,967 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-114] Running method:findByRegisterNumber
+2019-11-22 01:11:05,663 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:findByRegisterNumber
+2019-11-22 01:11:09,751 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByRegisterNumber
+2019-11-22 01:11:12,006 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:findByRegisterNumber
+2019-11-22 01:11:14,572 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:findByRegisterNumber
+2019-11-22 01:13:03,109 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-10] Running method:findByRegisterNumber
+2019-11-22 01:13:17,209 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:findByRegisterNumber
+2019-11-22 01:14:10,223 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByRegisterNumber
+2019-11-22 01:18:09,156 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-8] Running method:findByRegisterNumber
+2019-11-22 01:18:11,961 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByRegisterNumber
+2019-11-22 01:18:13,035 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findByRegisterNumber
+2019-11-22 01:18:14,161 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Running method:findByRegisterNumber
+2019-11-22 01:18:15,242 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:findByRegisterNumber
+2019-11-22 01:18:17,582 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-11] Running method:findByRegisterNumber
+2019-11-22 01:18:20,638 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByRegisterNumber
+2019-11-22 01:19:15,853 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Running method:findByRegisterNumber
+2019-11-22 01:19:15,888 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Running method:findByNumber
+2019-11-22 01:19:18,603 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Finished method:findByNumber
+2019-11-22 01:19:18,635 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-14] Finished method:findByRegisterNumber
+2019-11-22 01:19:21,298 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-15] Running method:findByRegisterNumber
+2019-11-22 01:21:30,035 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-11] Running method:findByRegisterNumber
+2019-11-22 01:22:47,377 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-12] Running method:findByRegisterNumber
+2019-11-22 01:24:34,908 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:findByRegisterNumber
+2019-11-22 01:25:14,240 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:findByRegisterNumber
+2019-11-22 01:28:09,261 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-31] Running method:findByRegisterNumber
+2019-11-23 00:08:39,422 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByRegisterNumber
+2019-11-23 00:08:47,985 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByRegisterNumber
+2019-11-23 00:08:48,041 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByNumber
+2019-11-23 00:08:49,473 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findByNumber
+2019-11-23 00:08:49,485 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findByRegisterNumber
+2019-11-23 00:08:55,320 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:findByRegisterNumber
+2019-11-23 00:08:55,322 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:findByNumber
+2019-11-23 00:08:55,328 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:findByNumber
+2019-11-23 00:10:35,597 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByRegisterNumber
+2019-11-23 00:10:35,652 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByNumber
+2019-11-23 00:10:36,032 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findByNumber
+2019-11-23 00:11:13,488 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByRegisterNumber
+2019-11-23 00:11:13,556 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByNumber
+2019-11-23 00:11:13,991 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findByNumber
+2019-11-23 00:11:22,068 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findByRegisterNumber
+2019-11-23 00:11:22,071 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findByNumber
+2019-11-23 00:11:22,077 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findByNumber
+2019-11-23 00:11:23,229 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByRegisterNumber
+2019-11-23 00:11:23,230 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByNumber
+2019-11-23 00:11:23,240 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:findByNumber
+2019-11-23 00:15:03,699 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:findByRegisterNumber
+2019-11-23 00:15:03,838 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Running method:findByNumber
+2019-11-23 00:15:04,283 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-13] Finished method:findByNumber
+2019-11-23 00:19:09,914 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-25] Running method:findByRegisterNumber
+2019-11-23 00:19:10,047 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-25] Running method:findByNumber
+2019-11-23 00:19:10,434 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-25] Finished method:findByNumber
+2019-11-23 00:20:21,406 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-26] Running method:findByRegisterNumber
+2019-11-23 00:20:21,493 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-26] Running method:findByNumber
+2019-11-23 00:20:21,865 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-26] Finished method:findByNumber
+2019-11-23 00:20:23,466 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-22] Running method:findByRegisterNumber
+2019-11-23 00:20:23,468 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-22] Running method:findByNumber
+2019-11-23 00:20:23,474 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-22] Finished method:findByNumber
+2019-11-23 00:23:35,207 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-30] Running method:postBus
+2019-11-23 00:23:35,223 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-30] Running method:create
+2019-11-23 00:23:36,808 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-30] Finished method:create
+2019-11-23 00:23:36,872 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-30] Finished method:postBus
+2019-11-23 00:39:04,892 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-30] Running method:checkForBooking
+2019-11-23 00:39:04,988 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-30] Running method:findByNumber
+2019-11-23 00:39:06,007 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-30] Finished method:findByNumber
+2019-11-23 00:39:06,013 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-30] Finished method:checkForBooking
+2019-11-23 00:39:10,491 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Running method:checkForBooking
+2019-11-23 00:39:10,513 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Running method:findByNumber
+2019-11-23 00:39:10,525 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-35] Finished method:findByNumber
+2019-11-23 00:54:30,864 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-42] Running method:checkForBooking
+2019-11-23 00:54:30,934 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-42] Running method:findByNumber
+2019-11-23 00:54:31,863 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-42] Finished method:findByNumber
+2019-11-23 00:54:31,870 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-42] Finished method:checkForBooking
+2019-11-23 00:54:35,669 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-41] Running method:checkForBooking
+2019-11-23 00:54:41,434 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-49] Running method:checkForBooking
+2019-11-23 00:54:41,436 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-49] Running method:findByNumber
+2019-11-23 00:55:19,142 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-51] Running method:checkForBooking
+2019-11-23 00:55:19,145 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-51] Running method:findByNumber
+2019-11-23 00:55:19,449 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-51] Finished method:findByNumber
+2019-11-23 00:55:19,450 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-51] Finished method:checkForBooking
+2019-11-23 13:51:28,456 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findByDriverNumber
+2019-11-23 13:51:28,485 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findByNumber
+2019-11-23 13:51:29,832 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findByNumber
+2019-11-23 13:51:29,834 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findByDriverNumber
+2019-11-23 13:51:42,914 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByDriverNumber
+2019-11-23 13:51:42,916 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByNumber
+2019-11-23 13:51:42,924 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:findByNumber
+2019-11-23 13:51:49,058 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByDriverNumber
+2019-11-23 13:51:49,059 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByNumber
+2019-11-23 13:51:49,066 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findByNumber
+2019-11-23 13:53:31,240 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:postDriver
+2019-11-23 13:53:31,240 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:create
+2019-11-23 13:53:31,510 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:create
+2019-11-23 13:53:31,510 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:postDriver
+2019-11-23 13:54:23,109 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:postDriver
+2019-11-23 13:54:23,127 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Running method:create
+2019-11-23 13:54:23,977 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:create
+2019-11-23 13:54:23,978 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-7] Finished method:postDriver
+2019-11-23 13:57:02,235 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:getDriverList
+2019-11-23 13:57:02,326 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Running method:findAll
+2019-11-23 13:57:03,837 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:findAll
+2019-11-23 13:57:03,838 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-5] Finished method:getDriverList
+2019-11-23 17:08:26,673 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6b04acb2] to prepare test instance [com.epam.buscompany.controller.BusControllerTest@18388a3c]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'methodValidationPostProcessor' defined in class path resource [com/epam/buscompany/config/WebAppConfig.class]: Invocation of init method failed; nested exception is javax.validation.ValidationException: HV000183: Unable to initialize 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:228)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:722)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:134)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:61)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: javax.validation.ValidationException: HV000183: Unable to initialize 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:116)
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.<init>(ResourceBundleMessageInterpolator.java:47)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getDefaultMessageInterpolator(ConfigurationImpl.java:474)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getDefaultMessageInterpolatorConfiguredWithClassLoader(ConfigurationImpl.java:650)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getMessageInterpolator(ConfigurationImpl.java:397)
+	at org.hibernate.validator.internal.engine.ValidatorFactoryImpl.<init>(ValidatorFactoryImpl.java:183)
+	at org.hibernate.validator.HibernateValidator.buildValidatorFactory(HibernateValidator.java:38)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.buildValidatorFactory(ConfigurationImpl.java:364)
+	at javax.validation.Validation.buildDefaultValidatorFactory(Validation.java:103)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.<init>(MethodValidationInterceptor.java:69)
+	at org.springframework.validation.beanvalidation.MethodValidationPostProcessor.createMethodValidationAdvice(MethodValidationPostProcessor.java:126)
+	at org.springframework.validation.beanvalidation.MethodValidationPostProcessor.afterPropertiesSet(MethodValidationPostProcessor.java:114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 39 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/el/ELManager
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:108)
+	... 52 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.el.ELManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 53 common frames omitted
+2019-11-23 17:09:18,449 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@18388a3c] to prepare test instance [com.epam.buscompany.controller.BusControllerTest@1d035be3]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'methodValidationPostProcessor' defined in com.epam.buscompany.config.AppConfig: Invocation of init method failed; nested exception is javax.validation.ValidationException: HV000183: Unable to initialize 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:228)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:722)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:134)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:61)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: javax.validation.ValidationException: HV000183: Unable to initialize 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:116)
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.<init>(ResourceBundleMessageInterpolator.java:47)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getDefaultMessageInterpolator(ConfigurationImpl.java:474)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getDefaultMessageInterpolatorConfiguredWithClassLoader(ConfigurationImpl.java:650)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getMessageInterpolator(ConfigurationImpl.java:397)
+	at org.hibernate.validator.internal.engine.ValidatorFactoryImpl.<init>(ValidatorFactoryImpl.java:183)
+	at org.hibernate.validator.HibernateValidator.buildValidatorFactory(HibernateValidator.java:38)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.buildValidatorFactory(ConfigurationImpl.java:364)
+	at javax.validation.Validation.buildDefaultValidatorFactory(Validation.java:103)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.<init>(MethodValidationInterceptor.java:69)
+	at org.springframework.validation.beanvalidation.MethodValidationPostProcessor.createMethodValidationAdvice(MethodValidationPostProcessor.java:126)
+	at org.springframework.validation.beanvalidation.MethodValidationPostProcessor.afterPropertiesSet(MethodValidationPostProcessor.java:114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 39 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/el/ELManager
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:108)
+	... 52 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.el.ELManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 53 common frames omitted
+2019-11-23 17:11:15,294 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@15723761] to prepare test instance [com.epam.buscompany.controller.BusControllerTest@312afbc7]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'methodValidationPostProcessor' defined in com.epam.buscompany.config.WebAppConfig: Invocation of init method failed; nested exception is javax.validation.ValidationException: HV000183: Unable to initialize 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:228)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:722)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:134)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:61)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: javax.validation.ValidationException: HV000183: Unable to initialize 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:116)
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.<init>(ResourceBundleMessageInterpolator.java:47)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getDefaultMessageInterpolator(ConfigurationImpl.java:474)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getDefaultMessageInterpolatorConfiguredWithClassLoader(ConfigurationImpl.java:650)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getMessageInterpolator(ConfigurationImpl.java:397)
+	at org.hibernate.validator.internal.engine.ValidatorFactoryImpl.<init>(ValidatorFactoryImpl.java:183)
+	at org.hibernate.validator.HibernateValidator.buildValidatorFactory(HibernateValidator.java:38)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.buildValidatorFactory(ConfigurationImpl.java:364)
+	at javax.validation.Validation.buildDefaultValidatorFactory(Validation.java:103)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.<init>(MethodValidationInterceptor.java:69)
+	at org.springframework.validation.beanvalidation.MethodValidationPostProcessor.createMethodValidationAdvice(MethodValidationPostProcessor.java:126)
+	at org.springframework.validation.beanvalidation.MethodValidationPostProcessor.afterPropertiesSet(MethodValidationPostProcessor.java:114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 39 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/el/ELManager
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:108)
+	... 52 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.el.ELManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 53 common frames omitted
+2019-11-23 17:12:05,476 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@66434cc8] to prepare test instance [com.epam.buscompany.controller.BusControllerTest@42f22995]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'methodValidationPostProcessor' defined in com.epam.buscompany.config.WebAppConfig: Invocation of init method failed; nested exception is javax.validation.ValidationException: HV000183: Unable to initialize 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:228)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:722)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:134)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:61)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: javax.validation.ValidationException: HV000183: Unable to initialize 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:116)
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.<init>(ResourceBundleMessageInterpolator.java:47)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getDefaultMessageInterpolator(ConfigurationImpl.java:474)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getDefaultMessageInterpolatorConfiguredWithClassLoader(ConfigurationImpl.java:650)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getMessageInterpolator(ConfigurationImpl.java:397)
+	at org.hibernate.validator.internal.engine.ValidatorFactoryImpl.<init>(ValidatorFactoryImpl.java:183)
+	at org.hibernate.validator.HibernateValidator.buildValidatorFactory(HibernateValidator.java:38)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.buildValidatorFactory(ConfigurationImpl.java:364)
+	at javax.validation.Validation.buildDefaultValidatorFactory(Validation.java:103)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.<init>(MethodValidationInterceptor.java:69)
+	at org.springframework.validation.beanvalidation.MethodValidationPostProcessor.createMethodValidationAdvice(MethodValidationPostProcessor.java:126)
+	at org.springframework.validation.beanvalidation.MethodValidationPostProcessor.afterPropertiesSet(MethodValidationPostProcessor.java:114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 39 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/el/ELManager
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:108)
+	... 52 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.el.ELManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 53 common frames omitted
+2019-11-23 17:14:35,696 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@68e62ca4] to prepare test instance [com.epam.buscompany.controller.BusControllerTest@5328a9c1]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'methodValidationPostProcessor' defined in com.epam.buscompany.config.WebAppConfig: Invocation of init method failed; nested exception is javax.validation.ValidationException: HV000183: Unable to initialize 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:228)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:722)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:134)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:61)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: javax.validation.ValidationException: HV000183: Unable to initialize 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:116)
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.<init>(ResourceBundleMessageInterpolator.java:47)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getDefaultMessageInterpolator(ConfigurationImpl.java:474)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getDefaultMessageInterpolatorConfiguredWithClassLoader(ConfigurationImpl.java:650)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getMessageInterpolator(ConfigurationImpl.java:397)
+	at org.hibernate.validator.internal.engine.ValidatorFactoryImpl.<init>(ValidatorFactoryImpl.java:183)
+	at org.hibernate.validator.HibernateValidator.buildValidatorFactory(HibernateValidator.java:38)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.buildValidatorFactory(ConfigurationImpl.java:364)
+	at javax.validation.Validation.buildDefaultValidatorFactory(Validation.java:103)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.<init>(MethodValidationInterceptor.java:69)
+	at org.springframework.validation.beanvalidation.MethodValidationPostProcessor.createMethodValidationAdvice(MethodValidationPostProcessor.java:126)
+	at org.springframework.validation.beanvalidation.MethodValidationPostProcessor.afterPropertiesSet(MethodValidationPostProcessor.java:114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 39 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/el/ELManager
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:108)
+	... 52 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.el.ELManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 53 common frames omitted
+2019-11-23 17:14:52,653 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@6d367020] to prepare test instance [com.epam.buscompany.controller.BusControllerTest@72458efc]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'methodValidationPostProcessor' defined in com.epam.buscompany.config.WebAppConfig: Invocation of init method failed; nested exception is javax.validation.ValidationException: HV000183: Unable to initialize 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:228)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:722)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:134)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:61)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: javax.validation.ValidationException: HV000183: Unable to initialize 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:116)
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.<init>(ResourceBundleMessageInterpolator.java:47)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getDefaultMessageInterpolator(ConfigurationImpl.java:474)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getDefaultMessageInterpolatorConfiguredWithClassLoader(ConfigurationImpl.java:650)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getMessageInterpolator(ConfigurationImpl.java:397)
+	at org.hibernate.validator.internal.engine.ValidatorFactoryImpl.<init>(ValidatorFactoryImpl.java:183)
+	at org.hibernate.validator.HibernateValidator.buildValidatorFactory(HibernateValidator.java:38)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.buildValidatorFactory(ConfigurationImpl.java:364)
+	at javax.validation.Validation.buildDefaultValidatorFactory(Validation.java:103)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.<init>(MethodValidationInterceptor.java:69)
+	at org.springframework.validation.beanvalidation.MethodValidationPostProcessor.createMethodValidationAdvice(MethodValidationPostProcessor.java:126)
+	at org.springframework.validation.beanvalidation.MethodValidationPostProcessor.afterPropertiesSet(MethodValidationPostProcessor.java:114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 39 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/el/ELManager
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:108)
+	... 52 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.el.ELManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 53 common frames omitted
+2019-11-23 17:16:37,845 ERROR org.springframework.test.context.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@511d5d04] to prepare test instance [com.epam.buscompany.controller.BusControllerTest@682c1e93]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:189)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:131)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'methodValidationPostProcessor' defined in com.epam.buscompany.config.WebAppConfig: Invocation of init method failed; nested exception is javax.validation.ValidationException: HV000183: Unable to initialize 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:228)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:722)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:134)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:61)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:108)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:251)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116)
+	... 24 common frames omitted
+Caused by: javax.validation.ValidationException: HV000183: Unable to initialize 'javax.el.ExpressionFactory'. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:116)
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.<init>(ResourceBundleMessageInterpolator.java:47)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getDefaultMessageInterpolator(ConfigurationImpl.java:474)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getDefaultMessageInterpolatorConfiguredWithClassLoader(ConfigurationImpl.java:650)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.getMessageInterpolator(ConfigurationImpl.java:397)
+	at org.hibernate.validator.internal.engine.ValidatorFactoryImpl.<init>(ValidatorFactoryImpl.java:183)
+	at org.hibernate.validator.HibernateValidator.buildValidatorFactory(HibernateValidator.java:38)
+	at org.hibernate.validator.internal.engine.ConfigurationImpl.buildValidatorFactory(ConfigurationImpl.java:364)
+	at javax.validation.Validation.buildDefaultValidatorFactory(Validation.java:103)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.<init>(MethodValidationInterceptor.java:69)
+	at org.springframework.validation.beanvalidation.MethodValidationPostProcessor.createMethodValidationAdvice(MethodValidationPostProcessor.java:126)
+	at org.springframework.validation.beanvalidation.MethodValidationPostProcessor.afterPropertiesSet(MethodValidationPostProcessor.java:114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 39 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: javax/el/ELManager
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:108)
+	... 52 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.el.ELManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 53 common frames omitted
+2019-11-23 17:52:10,850 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getBusList
+2019-11-23 17:52:11,005 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-23 17:52:12,358 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-23 17:52:12,359 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getBusList
+2019-11-23 17:53:07,413 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getBusList
+2019-11-23 17:53:07,435 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-23 17:53:08,137 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-23 17:53:08,137 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getBusList
+2019-11-23 17:53:53,117 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getBusList
+2019-11-23 17:53:53,138 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-23 17:53:53,778 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-23 17:53:53,778 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getBusList
+2019-11-23 17:55:38,303 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getBusList
+2019-11-23 17:55:38,324 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-23 17:55:38,999 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-23 17:55:39,000 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getBusList
+2019-11-23 18:03:17,568 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getBusList
+2019-11-23 18:03:17,593 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-23 18:03:18,255 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-23 18:03:18,255 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getBusList
+2019-11-23 18:04:41,882 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-23 18:04:42,655 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-23 18:04:42,717 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getBusList
+2019-11-23 18:04:42,755 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-23 18:04:42,986 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-23 18:04:42,987 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getBusList
+2019-11-23 18:04:43,161 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-23 18:04:43,335 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-23 18:07:12,653 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getBusList
+2019-11-23 18:07:12,690 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-23 18:07:13,350 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-23 18:07:13,350 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getBusList
+2019-11-23 18:17:04,378 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:getBusList
+2019-11-23 18:17:04,479 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findAll
+2019-11-23 18:17:05,815 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:findAll
+2019-11-23 18:17:05,816 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:getBusList
+2019-11-23 18:17:56,719 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getBusList
+2019-11-23 18:17:56,758 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-23 18:17:57,445 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-23 18:17:57,445 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getBusList
+2019-11-23 18:18:53,383 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getBusList
+2019-11-23 18:18:53,423 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-23 18:18:54,040 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-23 18:18:54,040 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getBusList
+2019-11-23 18:19:18,480 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getBusList
+2019-11-23 18:19:18,509 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-23 18:19:19,167 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-23 18:19:19,168 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getBusList
+2019-11-23 18:19:19,358 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-23 18:19:19,493 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-23 18:25:52,813 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 18:27:23,645 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 18:36:30,122 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 18:37:57,808 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 18:38:29,897 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 18:39:27,366 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 18:39:54,200 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 18:40:52,327 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 18:54:18,950 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 18:55:41,738 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 18:55:58,401 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 18:56:25,268 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 19:04:18,366 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByRegisterNumber
+2019-11-23 19:04:18,435 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 19:04:19,157 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByNumber
+2019-11-23 19:04:19,166 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByRegisterNumber
+2019-11-23 19:04:54,501 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByRegisterNumber
+2019-11-23 19:04:54,541 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 19:04:55,203 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByNumber
+2019-11-23 19:04:55,216 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByRegisterNumber
+2019-11-23 19:05:16,366 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByRegisterNumber
+2019-11-23 19:05:16,408 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 19:05:17,031 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByNumber
+2019-11-23 19:05:17,055 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByRegisterNumber
+2019-11-23 19:05:53,322 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByRegisterNumber
+2019-11-23 19:05:53,356 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 19:05:53,894 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByNumber
+2019-11-23 19:05:53,901 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByRegisterNumber
+2019-11-23 19:06:22,181 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByRegisterNumber
+2019-11-23 19:06:22,221 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 19:06:22,756 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByNumber
+2019-11-23 19:06:22,764 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByRegisterNumber
+2019-11-23 22:42:14,580 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:checkForBooking
+2019-11-23 22:42:14,692 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:findByNumber
+2019-11-23 22:42:15,921 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:findByNumber
+2019-11-23 22:42:15,928 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:checkForBooking
+2019-11-23 22:43:02,336 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:checkForBooking
+2019-11-23 22:43:02,367 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 22:43:03,658 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByNumber
+2019-11-23 22:43:03,666 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:checkForBooking
+2019-11-23 23:33:30,572 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 23:33:30,949 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByRegisterNumber
+2019-11-23 23:33:30,984 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 23:33:31,521 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByNumber
+2019-11-23 23:33:31,543 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByRegisterNumber
+2019-11-23 23:33:31,764 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getBusList
+2019-11-23 23:33:31,764 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-23 23:33:32,121 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-23 23:33:32,122 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getBusList
+2019-11-23 23:33:32,132 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-23 23:33:32,221 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-23 23:33:32,755 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:checkForBooking
+2019-11-23 23:33:32,758 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-23 23:33:32,999 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByNumber
+2019-11-23 23:33:33,005 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:checkForBooking
+2019-11-23 23:36:26,159 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:getBusList
+2019-11-23 23:36:26,262 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:findAll
+2019-11-23 23:36:27,806 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:findAll
+2019-11-23 23:36:27,807 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:getBusList
+2019-11-23 23:53:37,747 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:postRoute
+2019-11-23 23:53:37,808 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:create
+2019-11-23 23:53:39,021 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:create
+2019-11-23 23:53:39,022 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:postRoute
+2019-11-23 23:54:57,815 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:deleteRoute
+2019-11-23 23:54:57,872 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:remove
+2019-11-23 23:54:58,684 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:remove
+2019-11-23 23:54:58,691 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:deleteRoute
+2019-11-23 23:59:00,648 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-24 00:04:30,867 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:postRoute
+2019-11-24 00:04:30,923 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:create
+2019-11-24 00:04:31,117 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:create
+2019-11-24 00:04:31,117 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:postRoute
+2019-11-24 00:04:31,240 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-24 00:04:31,617 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByNumber
+2019-11-24 00:04:56,609 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:deleteRoute
+2019-11-24 00:04:56,628 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:remove
+2019-11-24 00:04:56,896 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:remove
+2019-11-24 00:04:56,902 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:deleteRoute
+2019-11-24 00:05:40,875 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-24 00:07:00,774 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:postRoute
+2019-11-24 00:07:00,801 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:create
+2019-11-24 00:07:01,092 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:create
+2019-11-24 00:07:01,093 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:postRoute
+2019-11-24 00:07:12,340 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-24 00:07:12,758 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByNumber
+2019-11-24 00:08:25,923 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-24 00:13:05,894 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:deleteRoute
+2019-11-24 00:13:05,918 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:remove
+2019-11-24 00:13:07,164 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:remove
+2019-11-24 00:13:07,170 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:deleteRoute
+2019-11-24 00:14:09,162 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:postRoute
+2019-11-24 00:14:09,287 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:create
+2019-11-24 00:14:09,595 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:create
+2019-11-24 00:14:09,596 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:postRoute
+2019-11-24 00:14:42,841 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByNumber
+2019-11-24 00:14:43,252 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByNumber
+2019-11-24 00:17:00,744 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:deleteRoute
+2019-11-24 00:17:00,764 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:remove
+2019-11-24 00:17:01,056 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:remove
+2019-11-24 00:17:01,063 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:deleteRoute
+2019-11-24 00:18:19,529 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:postRoute
+2019-11-24 00:18:19,565 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:create
+2019-11-24 00:18:19,788 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:create
+2019-11-24 00:18:19,789 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:postRoute
+2019-11-24 00:18:55,565 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:deleteRoute
+2019-11-24 00:18:55,585 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:remove
+2019-11-24 00:18:55,844 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:remove
+2019-11-24 00:18:55,848 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:deleteRoute
+2019-11-24 00:19:06,718 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:postRoute
+2019-11-24 00:19:06,741 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:create
+2019-11-24 00:19:07,475 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:create
+2019-11-24 00:19:07,475 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:postRoute
+2019-11-24 00:21:31,927 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:deleteRoute
+2019-11-24 00:21:31,950 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:remove
+2019-11-24 00:21:32,284 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:remove
+2019-11-24 00:21:32,289 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:deleteRoute
+2019-11-24 00:22:08,914 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:postRoute
+2019-11-24 00:22:08,939 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:create
+2019-11-24 00:22:09,109 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:create
+2019-11-24 00:22:09,110 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:postRoute
+2019-11-24 00:39:53,226 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getMockitoInterceptor
+2019-11-24 00:39:53,238 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getMockitoInterceptor
+2019-11-24 00:39:53,238 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getMockitoInterceptor
+2019-11-24 00:39:53,238 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getMockitoInterceptor
+2019-11-24 00:39:53,239 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getMockitoInterceptor
+2019-11-24 00:39:53,239 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getMockitoInterceptor
+2019-11-24 00:39:53,239 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getMockitoInterceptor
+2019-11-24 00:39:53,239 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getMockitoInterceptor
+2019-11-24 00:39:53,240 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getMockitoInterceptor
+2019-11-24 00:39:53,241 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getMockitoInterceptor
+2019-11-24 00:39:53,282 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-24 00:39:53,297 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-24 00:42:59,976 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-24 00:43:00,001 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-24 00:44:02,995 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getMockitoInterceptor
+2019-11-24 00:44:03,004 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getMockitoInterceptor
+2019-11-24 00:44:03,004 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getMockitoInterceptor
+2019-11-24 00:44:03,004 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getMockitoInterceptor
+2019-11-24 00:44:03,005 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:setMockitoInterceptor
+2019-11-24 00:44:03,005 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:setMockitoInterceptor
+2019-11-24 00:44:03,033 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findAll
+2019-11-24 00:44:03,049 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findAll
+2019-11-24 00:56:39,988 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:deleteRoute
+2019-11-24 00:56:40,079 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:deleteRoute
+2019-11-24 01:03:08,241 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:deleteRoute
+2019-11-24 01:03:08,280 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:deleteRoute
+2019-11-24 01:03:57,843 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:deleteRoute
+2019-11-24 01:03:57,897 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:deleteRoute
+2019-11-24 01:05:51,806 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:deleteRoute
+2019-11-24 01:05:51,847 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:deleteRoute
+2019-11-24 01:06:10,196 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:deleteRoute
+2019-11-24 01:06:10,238 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:deleteRoute
+2019-11-24 01:08:10,607 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:deleteRoute
+2019-11-24 01:08:10,640 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:deleteRoute
+2019-11-24 01:10:05,342 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:findByRouteNumber
+2019-11-24 01:10:05,375 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:findByRouteNumber
+2019-11-24 01:11:04,709 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getBusList
+2019-11-24 01:11:04,755 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getBusList
+2019-11-24 01:11:47,007 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Running method:getBusList
+2019-11-24 01:11:47,054 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [main] Finished method:getBusList
+2019-11-24 16:39:38,687 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:checkForBooking
+2019-11-24 16:39:38,789 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:findByNumber
+2019-11-24 16:39:40,258 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:findByNumber
+2019-11-24 16:39:40,277 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Finished method:checkForBooking
+2019-11-24 16:39:49,764 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:checkForBooking
+2019-11-24 16:39:49,766 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:findByNumber
+2019-11-24 16:39:49,999 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:findByNumber
+2019-11-24 16:39:50,000 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Finished method:checkForBooking
+2019-11-24 16:39:54,114 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:checkForBooking
+2019-11-24 16:39:54,116 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Running method:findByNumber
+2019-11-24 16:39:54,332 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-4] Finished method:findByNumber
+2019-11-26 14:02:42,993 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:postBus
+2019-11-26 14:02:43,103 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-6] Running method:create
+2019-11-26 14:05:51,144 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:postBus
+2019-11-26 14:05:51,209 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-3] Running method:create
+2019-11-26 14:10:05,928 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:postBus
+2019-11-26 14:10:06,007 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-2] Running method:create
+2019-11-26 14:12:23,389 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:postBus
+2019-11-26 14:12:23,451 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Running method:create
+2019-11-26 14:12:28,672 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:create
+2019-11-26 14:12:28,692 DEBUG com.epam.buscompany.service.aspect.LoggingAspect [http-nio-8082-exec-1] Finished method:postBus

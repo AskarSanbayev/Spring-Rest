@@ -1,6 +1,8 @@
 package com.epam.buscompany.model.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
@@ -14,17 +16,15 @@ import java.io.Serializable;
 @Data
 @NoArgsConstructor
 @EqualsAndHashCode(exclude = {"route", "garage"})
-@ToString(exclude = {"garage", "route"})
+@ToString(exclude = {"driver"})
 @Entity
 @Table(name = "bus", schema = "company")
 public class Bus implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
-
     @Min(value = 1, message = "number must be more than 0")
     @Column(name = "register_number", unique = true)
+    @JsonProperty("registernumber")
     private int registerNumber;
 
     @Min(value = 15)
@@ -36,15 +36,18 @@ public class Bus implements Serializable {
     @Column(name = "deck")
     private int deck;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
     @JoinColumn(name = "garage_number", referencedColumnName = "garage_number")
+    @JsonIgnoreProperties({"id", "address", "name"})
+
     private Garage garage;
 
-    @OneToOne(mappedBy = "bus")
+    @OneToOne(mappedBy = "bus", cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
     private Driver driver;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
     @JoinColumn(name = "route_number", referencedColumnName = "route_number")
+    @JsonIgnoreProperties({"id", "passengerAverage"})
     private Route route;
 
     public Bus(@Min(value = 1, message = "number must be more than 0") int registerNumber,
@@ -53,6 +56,5 @@ public class Bus implements Serializable {
         this.registerNumber = registerNumber;
         this.size = size;
         this.deck = deck;
-
     }
 }
