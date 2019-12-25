@@ -1,7 +1,6 @@
 package com.epam.buscompany.dao.impl;
 
 
-import com.epam.buscompany.config.AppConfig;
 import com.epam.buscompany.config.TestConfig;
 import com.epam.buscompany.dao.BusDao;
 import com.epam.buscompany.dao.DriverDao;
@@ -57,7 +56,7 @@ public class DriverDaoImplTest {
     }
 
     @AfterClass
-    public static void tearDown() throws Exception {
+    public static void tearDown() {
         date = null;
         driver = null;
         bus = null;

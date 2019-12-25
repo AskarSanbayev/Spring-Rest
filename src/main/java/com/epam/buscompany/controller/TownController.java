@@ -34,7 +34,7 @@ public class TownController {
         return new ResponseEntity<>("Town has been deleted!", HttpStatus.OK);
     }
 
-    @GetMapping("/town/townname/{townname}")
+    @GetMapping("/town/{townname}")
     public Town findByTownName(@PathVariable("townname") String townName) {
         return townService.findByName(townName);
     }

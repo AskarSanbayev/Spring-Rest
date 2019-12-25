@@ -10,6 +10,7 @@ public interface BusDao extends GenericDao<Bus> {
 
     Bus findByNumber(int registerNumber);
 
+    void detachRoute(int routeNumber);
 
     void remove(int registerNumber);
 }

@@ -35,7 +35,7 @@ public class BusController {
         return new ResponseEntity<>("Bus has been deleted!", HttpStatus.OK);
     }
 
-    @GetMapping("/bus/registernumber/{registernumber}")
+    @GetMapping("/bus/{registernumber}")
     public Bus findByRegisterNumber(@PathVariable("registernumber") @Min(value = 1, message = "must be more than 0") int registerNumber) {
         return busService.findByNumber(registerNumber);
     }

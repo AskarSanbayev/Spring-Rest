@@ -5,6 +5,7 @@ import com.epam.buscompany.dao.DriverDao;
 import com.epam.buscompany.dao.GarageDao;
 import com.epam.buscompany.dao.RouteDao;
 import com.epam.buscompany.model.entity.Bus;
+import com.epam.buscompany.model.entity.Driver;
 import com.epam.buscompany.model.entity.Garage;
 import com.epam.buscompany.model.entity.Route;
 import com.epam.buscompany.model.exception.NotFoundException;
@@ -65,9 +66,17 @@ public class BusServiceImpl implements BusService {
     @Override
     public void remove(int registerNumber) {
         Bus bus = findByNumber(registerNumber);
-        bus.getDriver().setBus(null);
-        driverDao.update(bus.getDriver());
+        Optional<Driver> driver= Optional.ofNullable(bus.getDriver());
+        if (driver.isPresent()){
+            bus.getDriver().setBus(null);
+            driverDao.update(bus.getDriver());
+        }
         busDao.remove(registerNumber);
+    }
+
+    @Override
+    public void detachRoute(int routeNumber) {
+        busDao.detachRoute(routeNumber);
     }
 
     @Transactional(readOnly = true)

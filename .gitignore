@@ -5,4 +5,5 @@ out/
 
 # Maven
 log/
+logs/
 target/

@@ -32,7 +32,7 @@ public class RouteController {
         return new ResponseEntity<>("Route has been deleted!", HttpStatus.OK);
     }
 
-    @GetMapping("/route/routenumber/{routenumber}")
+    @GetMapping("/route/{routenumber}")
     public Route findByRouteNumber(@PathVariable("routenumber") int routeNumber) {
         return routeService.findByNumber(routeNumber);
     }

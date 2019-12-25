@@ -32,7 +32,7 @@ public class StageController {
         return new ResponseEntity<>("Stage has been deleted!", HttpStatus.OK);
     }
 
-    @GetMapping("/stage/stagenumber/{stagenumber}")
+    @GetMapping("/stage/{stagenumber}")
     public Stage findByStageNumber(@PathVariable("stagenumber") int stageNumber) {
         return stageService.findByNumber(stageNumber);
     }

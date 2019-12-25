@@ -31,7 +31,7 @@ public class GarageController {
         return new ResponseEntity<>("Garage has been deleted!", HttpStatus.OK);
     }
 
-    @GetMapping("/garage/garagenumber/{garagenumber}")
+    @GetMapping("/garage/{garagenumber}")
     public Garage findByGarageNumber(@PathVariable("garagenumber") int garageNumber) {
         return garageService.findByNumber(garageNumber);
     }

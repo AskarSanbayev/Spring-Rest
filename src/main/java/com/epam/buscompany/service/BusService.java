@@ -9,4 +9,6 @@ public interface BusService extends EntityService<Bus> {
     void create(Bus item,int garageNumber,int routeNumber);
 
     void remove(int registerNumber);
+
+    void detachRoute(int routeNumber);
 }

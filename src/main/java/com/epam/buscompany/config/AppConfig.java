@@ -22,18 +22,11 @@ import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
-import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.CorsConfigurationSource;
-import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
-import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 import javax.sql.DataSource;
 import javax.validation.Validator;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.Objects;
 import java.util.Properties;
 import java.util.ResourceBundle;
@@ -56,7 +49,7 @@ public class AppConfig {
     private static final String USERNAME = "username";
     private static final String PASS_WORD = "password";
 
-    // Mail
+    // Mail formatter
     private static final String MAIL_SOURCE = "mail";
     private static final String MAIL_HOST = "mail.host";
     private static final String MAIL_PORT = "mail.port";

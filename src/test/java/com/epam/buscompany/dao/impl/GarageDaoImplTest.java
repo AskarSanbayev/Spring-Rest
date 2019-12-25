@@ -1,6 +1,5 @@
 package com.epam.buscompany.dao.impl;
 
-import com.epam.buscompany.config.AppConfig;
 import com.epam.buscompany.config.TestConfig;
 import com.epam.buscompany.dao.GarageDao;
 import com.epam.buscompany.model.entity.Garage;
@@ -39,12 +38,12 @@ public class GarageDaoImplTest {
     static Garage garage = null;
 
     @BeforeClass
-    public static void setUp() throws Exception {
+    public static void setUp() {
         garage = new Garage(99, "test", "test");
     }
 
     @AfterClass
-    public static void tearDown() throws Exception {
+    public static void tearDown() {
         garage = null;
     }
 

@@ -38,12 +38,12 @@ public class RouteDaoImplTest {
     static Route route = null;
 
     @BeforeClass
-    public static void setUp() throws Exception {
+    public static void setUp() {
         route = new Route(100, 22);
     }
 
     @AfterClass
-    public static void tearDown() throws Exception {
+    public static void tearDown() {
         route = null;
     }
 

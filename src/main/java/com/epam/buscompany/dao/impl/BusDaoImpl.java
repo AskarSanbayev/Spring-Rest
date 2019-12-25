@@ -3,6 +3,7 @@ package com.epam.buscompany.dao.impl;
 import com.epam.buscompany.dao.BusDao;
 import com.epam.buscompany.model.entity.Bus;
 import org.hibernate.Criteria;
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
@@ -48,6 +49,14 @@ public class BusDaoImpl implements BusDao {
         Criteria busCriteria = session.createCriteria(Bus.class);
         busCriteria.add(Restrictions.eq("registerNumber", registerNumber));
         return (Bus) busCriteria.uniqueResult();
+    }
+
+    @Override
+    public void detachRoute(int routeNumber) {
+        Session session = sessionFactory.getCurrentSession();
+        Query query = session.createQuery("update Bus set route_number = null where route_number = :routenumber");
+        query.setParameter("routenumber",routeNumber);
+        query.executeUpdate();
     }
 
     @Override

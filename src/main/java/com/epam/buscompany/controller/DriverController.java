@@ -32,7 +32,7 @@ public class DriverController {
         return new ResponseEntity<>("Driver has been deleted!", HttpStatus.OK);
     }
 
-    @GetMapping("/driver/drivernumber/{drivernumber}")
+    @GetMapping("/driver/{drivernumber}")
     public Driver findByDriverNumber(@PathVariable("drivernumber") int driverNumber) {
         return driverService.findByNumber(driverNumber);
     }

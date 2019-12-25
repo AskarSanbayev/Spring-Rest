@@ -5,6 +5,7 @@ import com.epam.buscompany.dao.RouteDao;
 import com.epam.buscompany.model.entity.Bus;
 import com.epam.buscompany.model.entity.Route;
 import com.epam.buscompany.model.exception.NotFoundException;
+import com.epam.buscompany.service.BusService;
 import com.epam.buscompany.service.RouteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,6 +18,9 @@ import java.util.Optional;
 public class RouteServiceImpl implements RouteService {
 
     private RouteDao routeDao;
+
+    @Autowired
+    private BusService busService;
 
     public RouteServiceImpl(RouteDao routeDao) {
         this.routeDao = routeDao;
@@ -40,6 +44,7 @@ public class RouteServiceImpl implements RouteService {
 
     @Override
     public void remove(int routeNumber) {
+        busService.detachRoute(routeNumber);
         routeDao.remove(routeNumber);
     }
 

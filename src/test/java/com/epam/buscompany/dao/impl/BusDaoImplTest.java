@@ -74,7 +74,7 @@ public class BusDaoImplTest {
     }
 
     @AfterClass
-    public static void tearDown() throws Exception {
+    public static void tearDown() {
         bus = null;
         route = null;
         garage = null;
